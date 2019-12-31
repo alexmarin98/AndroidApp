@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainContent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/button_backround"
+                android:text="Linia 1&#10;Livada Postei - Triaj" />
+
+            <Button
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 2&#10;Livada Postei - Rulmentul" />
+
+            <Button
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 4&#10;Livada Postei - Gara Brasov" />
+
+            <Button
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 5&#10;Stad.Municipal - Roman" />
+
+            <Button
+                android:id="@+id/l5m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="linia 5M&#10;Stad.Municipal - Magurele" />
+
+            <Button
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 6&#10;Livada Postei - Saturn" />
+
+            <Button
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 9 &#10; Rulmentul (*Coresi) - Independentei - Stadionul Muncipal" />
+
+            <Button
+                android:id="@+id/l16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 16&#10;Livada Postei - Grivitei - Caramidariei" />
+
+            <Button
+                android:id="@+id/l17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 17&#10;Livada Postei - Noua" />
+
+            <Button
+                android:id="@+id/l18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 18&#10;Bariera Bartolomeu - Fundaturii (*IAR Ghimbav)" />
+
+            <Button
+                android:id="@+id/l20e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 20 Expres &#10;Livada Postei - Poiana Brasov" />
+
+            <Button
+                android:id="@+id/l21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 21 &#10;Triaj - Noua" />
+
+            <Button
+                android:id="@+id/l22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 22&#10;Saturn - Stadionul Tineretului" />
+
+            <Button
+                android:id="@+id/l23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 23&#10;Saturn - Depozite ILF - Stadionul Municipal" />
+
+            <Button
+                android:id="@+id/l23b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 23B&#10;Triaj - A.Vlaicu - Stadionul Municipal" />
+
+            <Button
+                android:id="@+id/l24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 24&#10;Livada Postei - ICPC - Baciului (*Stupinii Noi)" />
+
+            <Button
+                android:id="@+id/l25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 25&#10;Avantgarden - Gara Bra?ov (*Roman)" />
+
+            <Button
+                android:id="@+id/l28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 28 &#10; Livada Postei - Lânii - Fundaturii (*IAR Ghimbav, **ICPC)" />
+
+            <Button
+                android:id="@+id/l29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 29&#10;Bartolomeu Nord - Independentei - Gara Brasov" />
+
+            <Button
+                android:id="@+id/l31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 31 &#10; Valea Cetatii - Livada Postei" />
+
+            <Button
+                android:id="@+id/l32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 32 &#10; Valea Cetatii - Gara Brasov" />
+
+            <Button
+                android:id="@+id/l34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 34 &#10; Livada Postei - Timis-Triaj" />
+
+            <Button
+                android:id="@+id/l34b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 34B &#10; Triaj - Fdt. Harmanului - Vlahuta - Hidro A" />
+
+            <Button
+                android:id="@+id/l35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 35 &#10;Gara Brasov - Noua" />
+
+            <Button
+                android:id="@+id/l36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 36 &#10;Livada Postei - Independentei" />
+            <Button
+                android:id="@+id/l40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 40 &#10;Gara Brasov - Stupini" />
+            <Button
+                android:id="@+id/l53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 53 &#10;Facultatea de Constructii - Panselelor" />
+
+            <Button
+                android:id="@+id/l14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 14 &#10;Livada Postei - Rasaritul - Fabrica de var" />
+            <Button
+                android:id="@+id/l15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 15 &#10;Avantgarden - Independentei - Triaj" />
+
+            <Button
+                android:id="@+id/l17b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 17B &#10; Gara Brasov - tmisul de Jos" />
+
+            <Button
+                android:id="@+id/l19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 19 &#10;Noua - CET - Triaj" />
+
+            <Button
+                android:id="@+id/l37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 37 &#10;Craiter - Hidro A" />
+
+            <Button
+                android:id="@+id/l41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 41 &#10;Livada postei - Stupinii Lujerului" />
+            <Button
+                android:id="@+id/l50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 50 &#10;Podul Cretului(*Solomon) - Livada Postei" />
+
+            <Button
+                android:id="@+id/l51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 51 &#10;Pe Tocile - Gara Brasov" />
+
+            <Button
+                android:id="@+id/l52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 52 &#10;Pe Tocile - Roman (*Panselelor)" />
+
+            <Button
+                android:id="@+id/l60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 60 &#10;(Silver Mountain)Poiana Mica - Telegondola" />
+            <Button
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 3 &#10;Stadionul Tineretului - Valea Cetatii" />
+            <Button
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 7 &#10;Rulmentul - Saturn" />
+            <Button
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 8 &#10;Rulmentul - Saturn" />
+            <Button
+                android:id="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 10 &#10;Valea Cetatii - Triaj" />
+            <Button
+                android:id="@+id/l33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Linia 33 &#10;Valea Cetatii - Roman" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

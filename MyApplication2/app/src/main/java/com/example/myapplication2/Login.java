@@ -2,6 +2,7 @@ package com.example.myapplication2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +30,8 @@ public class Login extends AppCompatActivity {
                 Boolean check = db.checkLogin(username,password);
                 if (check == true){
                     Toast.makeText(getApplicationContext(),"Login successfully",Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(Login.this,MainContent.class);
+                    startActivity(i);
                 }
                 else {
                     Toast.makeText(getApplicationContext(),"Wrong username or password",Toast.LENGTH_SHORT).show();
