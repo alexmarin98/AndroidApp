@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                         else{
-                            Toast.makeText(getApplicationContext(),"Username allready exists",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(),"Username already exists",Toast.LENGTH_SHORT).show();
                         }
 
                     }
