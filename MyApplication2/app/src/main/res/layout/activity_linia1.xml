@@ -28,9 +28,10 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/l212113"
+                android:id="@+id/livadaPostei"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
+                android:layout_marginTop="50dp"
                 android:background="@drawable/button_backround"
                 android:text=" Statia Livada Postei" />
 

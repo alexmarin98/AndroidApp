@@ -10,7 +10,15 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 
 public class DialogFrag extends DialogFragment {
-    private String selection;
+    public String selection;
+
+    public String getSelection() {
+        return selection;
+    }
+
+    public void setSelection(String selection) {
+        this.selection = selection;
+    }
 
     @Override
     public Dialog onCreateDialog (Bundle savedInstanceState) {

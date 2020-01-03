@@ -9,7 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainContent"></activity>
+        <activity android:name=".Linia1TriajTur"></activity>
+        <activity android:name=".Linia1RatTur" />
+        <activity android:name=".Linia1Autogara3Tur" />
+        <activity android:name=".Linia1VlahutaTur" />
+        <activity android:name=".Linia1IusTur" />
+        <activity android:name=".Linia1ToamneiCecTur" />
+        <activity android:name=".Linia1ToamneiTur" />
+        <activity android:name=".Linia1HidroATur" />
+        <activity android:name=".Linia1PatriaTur" />
+        <activity android:name=".Linia1DramaticTur" />
+        <activity android:name=".Linia1Tur" />
+        <activity android:name=".Linia1TurRetur" />
+        <activity android:name=".Linia1LIvadaPosteiTur" />
+        <activity android:name=".Linia1" />
+        <activity android:name=".MainContent" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>

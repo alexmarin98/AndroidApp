@@ -2,7 +2,7 @@
     <string name="app_name">My Application2</string>
     <string name="sign">sign</string>
     <string name="title_activity_main_content">MainContent</string>
-    
+
     <string-array name="route">
         <item>Cursa normala</item>
         <item>Cursa inversa</item>
