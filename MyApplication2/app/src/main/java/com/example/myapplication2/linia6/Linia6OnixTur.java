@@ -11,6 +11,6 @@ public class Linia6OnixTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_onix_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_tur_Onix.pdf").load();
+        pdfView.fromAsset("linia_6_Saturn_Livada_Postei_Onix.pdf").load();
     }
 }

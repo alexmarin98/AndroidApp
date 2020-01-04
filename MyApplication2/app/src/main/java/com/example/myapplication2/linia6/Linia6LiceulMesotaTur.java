@@ -11,6 +11,6 @@ public class Linia6LiceulMesotaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_liceulmesota_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_tur_LiceulMesota.pdf").load();
+        pdfView.fromAsset("linia_6_Saturn_Livada_Postei_Liceul_Mesota.pdf").load();
     }
 }
