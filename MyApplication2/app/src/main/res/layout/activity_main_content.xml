@@ -36,14 +36,14 @@
                 android:text="Linia 1&#10;Livada Postei - Triaj" />
 
             <Button
-                android:id="@+id/tur"
+                android:id="@+id/l2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_backround"
                 android:text="Linia 2&#10;Livada Postei - Rulmentul"/>
 
             <Button
-                android:id="@+id/retur"
+                android:id="@+id/l4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_backround"
