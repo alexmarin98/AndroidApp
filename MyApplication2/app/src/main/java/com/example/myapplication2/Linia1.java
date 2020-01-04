@@ -1,11 +1,11 @@
 package com.example.myapplication2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Linia1 extends AppCompatActivity {
 
@@ -24,7 +24,7 @@ public class Linia1 extends AppCompatActivity {
 
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
 
-                    Intent i = new Intent(Linia1.this,Linia1TurRetur.class);
+                    Intent i = new Intent(Linia1.this, Linia1TurRetur.class);
                     startActivity(i);
 
 

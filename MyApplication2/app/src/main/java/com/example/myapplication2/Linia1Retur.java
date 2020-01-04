@@ -1,11 +1,11 @@
 package com.example.myapplication2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Linia1Retur extends AppCompatActivity {
 
@@ -40,9 +40,6 @@ public class Linia1Retur extends AppCompatActivity {
         LivadaPostei.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1LIvadaPosteiTur.class);
                 startActivity(i);
             }
@@ -50,9 +47,6 @@ public class Linia1Retur extends AppCompatActivity {
         Primarie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Lini1PrimarieRetur.class);
                 startActivity(i);
             }
@@ -60,9 +54,6 @@ public class Linia1Retur extends AppCompatActivity {
         Sanitas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1SanitasRetur.class);
                 startActivity(i);
             }
@@ -70,9 +61,6 @@ public class Linia1Retur extends AppCompatActivity {
         CameraDeComert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1CameraDeComertRetur.class);
                 startActivity(i);
             }
@@ -80,9 +68,6 @@ public class Linia1Retur extends AppCompatActivity {
         Mesota.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1MesotaRetur.class);
                 startActivity(i);
             }
@@ -90,9 +75,6 @@ public class Linia1Retur extends AppCompatActivity {
         Cec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1CecRetur.class);
                 startActivity(i);
             }
@@ -100,9 +82,6 @@ public class Linia1Retur extends AppCompatActivity {
         IUS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1IusRetur.class);
                 startActivity(i);
             }
@@ -110,9 +89,6 @@ public class Linia1Retur extends AppCompatActivity {
         Vlahuta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1VlahutaRetur.class);
                 startActivity(i);
             }
@@ -120,9 +96,6 @@ public class Linia1Retur extends AppCompatActivity {
         Autogara3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1Autogara3Retur.class);
                 startActivity(i);
             }
@@ -130,9 +103,6 @@ public class Linia1Retur extends AppCompatActivity {
         Rat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1RatRetur.class);
                 startActivity(i);
             }
@@ -140,9 +110,6 @@ public class Linia1Retur extends AppCompatActivity {
         Triaj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(Linia1Retur.this, Linia1TriajTur.class);
                 startActivity(i);
             }

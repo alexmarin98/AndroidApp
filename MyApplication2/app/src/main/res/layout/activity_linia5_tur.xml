@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainContent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/stadion"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/button_backround"
+                android:text="Stad. Municipal" />
+
+            <Button
+                android:id="@+id/bisericaBartolomeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Biserica Bartolomeu "/>
+
+            <Button
+                android:id="@+id/carierei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Carierei" />
+
+            <Button
+                android:id="@+id/memorandului"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Memorandului" />
+            <Button
+                android:id="@+id/bisericiiRomane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Bisericii Romane" />
+
+            <Button
+                android:id="@+id/astra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Astra" />
+
+            <Button
+                android:id="@+id/dramatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Dramatic" />
+            <Button
+                android:id="@+id/patria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Patria" />
+            <Button
+                android:id="@+id/hidroA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Hidro A" />
+            <Button
+                android:id="@+id/hidroB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Hidro B" />
+            <Button
+                android:id="@+id/spitalJudetean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Spitalul Judetean" />
+            <Button
+                android:id="@+id/liceuInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Liceul Informatica" />
+            <Button
+                android:id="@+id/berzei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Berzei" />
+            <Button
+                android:id="@+id/pompieri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Pompieri" />
+            <Button
+                android:id="@+id/metrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Metrom" />
+            <Button
+                android:id="@+id/poienelor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Poienelor" />
+
+
+            <Button
+                android:id="@+id/roman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/button_backround"
+                android:text="Roman" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

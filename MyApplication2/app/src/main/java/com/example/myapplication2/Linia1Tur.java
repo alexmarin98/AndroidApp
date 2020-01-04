@@ -1,12 +1,11 @@
 package com.example.myapplication2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Linia1Tur extends AppCompatActivity {
 
@@ -43,7 +42,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1LIvadaPosteiTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1LIvadaPosteiTur.class);
                 startActivity(i);
             }
         });
@@ -53,7 +52,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1DramaticTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1DramaticTur.class);
                 startActivity(i);
             }
         });
@@ -63,7 +62,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1PatriaTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1PatriaTur.class);
                 startActivity(i);
             }
         });
@@ -73,7 +72,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1HidroATur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1HidroATur.class);
                 startActivity(i);
             }
         });
@@ -83,7 +82,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1ToamneiTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1ToamneiTur.class);
                 startActivity(i);
             }
         });
@@ -93,7 +92,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1ToamneiCecTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1ToamneiCecTur.class);
                 startActivity(i);
             }
         });
@@ -103,7 +102,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1IusTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1IusTur.class);
                 startActivity(i);
             }
         });
@@ -113,7 +112,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1VlahutaTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1VlahutaTur.class);
                 startActivity(i);
             }
         });
@@ -123,7 +122,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1Autogara3Tur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1Autogara3Tur.class);
                 startActivity(i);
             }
         });
@@ -133,7 +132,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1RatTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1RatTur.class);
                 startActivity(i);
             }
         });
@@ -143,7 +142,7 @@ public class Linia1Tur extends AppCompatActivity {
                 //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
-                Intent i = new Intent(Linia1Tur.this,Linia1TriajTur.class);
+                Intent i = new Intent(Linia1Tur.this, Linia1TriajTur.class);
                 startActivity(i);
             }
         });
