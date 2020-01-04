@@ -12,6 +12,7 @@ public class MainContent extends AppCompatActivity {
     Button Linia1;
     Button Linia2;
     Button Linia4;
+    Button Linia5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class MainContent extends AppCompatActivity {
         Linia1 = (Button) findViewById(R.id.l1);
         Linia2 = (Button) findViewById(R.id.l2);
         Linia4 = (Button) findViewById(R.id.l4);
+        Linia5 = (Button) findViewById(R.id.l5);
 
         Linia1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +50,16 @@ public class MainContent extends AppCompatActivity {
                 //DialogFrag ciao = new DialogFrag();
                 //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(MainContent.this,Linia4TurRetur.class);
+                startActivity(i);
+            }
+        });
+        Linia5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+                //DialogFrag ciao = new DialogFrag();
+                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
+                Intent i = new Intent(MainContent.this,Linia5TurRetur.class);
                 startActivity(i);
             }
         });
