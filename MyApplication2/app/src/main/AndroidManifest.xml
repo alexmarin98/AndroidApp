@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Linia5MCaramidarieiRetur"></activity>
+        <activity android:name=".Linia6Retur"></activity>
+        <activity android:name=".Linia6Tur" />
+        <activity android:name=".Linia6TurRetur" />
+        <activity android:name=".Linia5MCaramidarieiRetur" />
         <activity android:name=".Linia5MBrintexRetur" />
         <activity android:name=".Linia5MDepoziteRetur" />
         <activity android:name=".Linia5MFacultativa2Retur" />

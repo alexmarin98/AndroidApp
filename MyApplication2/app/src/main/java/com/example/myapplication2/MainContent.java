@@ -14,6 +14,7 @@ public class MainContent extends AppCompatActivity {
     Button Linia4;
     Button Linia5;
     Button Linia5M;
+    Button Linia6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,13 +25,12 @@ public class MainContent extends AppCompatActivity {
         Linia4 = (Button) findViewById(R.id.l4);
         Linia5 = (Button) findViewById(R.id.l5);
         Linia5M = (Button) findViewById(R.id.l5m);
+        Linia6 = (Button) findViewById(R.id.l6);
+
 
         Linia1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(MainContent.this, Linia1TurRetur.class);
                 startActivity(i);
             }
@@ -38,9 +38,6 @@ public class MainContent extends AppCompatActivity {
         Linia2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(MainContent.this,Linia2TurRetur.class);
                 startActivity(i);
             }
@@ -48,9 +45,6 @@ public class MainContent extends AppCompatActivity {
         Linia4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(MainContent.this,Linia4TurRetur.class);
                 startActivity(i);
             }
@@ -58,9 +52,6 @@ public class MainContent extends AppCompatActivity {
         Linia5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(MainContent.this,Linia5TurRetur.class);
                 startActivity(i);
             }
@@ -68,10 +59,14 @@ public class MainContent extends AppCompatActivity {
         Linia5M.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-                //DialogFrag ciao = new DialogFrag();
-                //ciao.show(getSupportFragmentManager(), "pln");// show(v.getContext(),"MyDP");
                 Intent i = new Intent(MainContent.this,Linia5MTurRetur.class);
+                startActivity(i);
+            }
+        });
+        Linia6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainContent.this,Linia6TurRetur.class);
                 startActivity(i);
             }
         });
