@@ -11,6 +11,6 @@ public class Linia6LivadaPosteiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_livadapostei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_retur_LivadaPostei.pdf").load();
+        pdfView.fromAsset("linia_6_Livada_Postei_Saturn_Livada_Postei.pdf").load();
     }
 }

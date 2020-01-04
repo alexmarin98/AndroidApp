@@ -11,6 +11,6 @@ public class Linia6ToamneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_toamnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_retur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia_6_Livada_Postei_Saturn_Toamnei.pdf").load();
     }
 }

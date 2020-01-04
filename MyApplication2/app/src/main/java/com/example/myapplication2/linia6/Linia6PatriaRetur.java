@@ -11,6 +11,6 @@ public class Linia6PatriaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_patria_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_retur_Patria.pdf").load();
+        pdfView.fromAsset("linia_6_Livada_Postei_Saturn_Patria.pdf").load();
     }
 }

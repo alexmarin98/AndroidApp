@@ -11,6 +11,6 @@ public class Linia6GemeniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_gemenii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_retur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_6_Saturn_Livada_Postei_Gemenii.pdf").load();
     }
 }

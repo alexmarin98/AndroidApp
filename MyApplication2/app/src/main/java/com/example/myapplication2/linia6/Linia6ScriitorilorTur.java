@@ -11,6 +11,6 @@ public class Linia6ScriitorilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_scriitorilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_tur_Scriitorilor.pdf").load();
+        pdfView.fromAsset("linia_6_Saturn_Livada_Postei_Scriitorilor.pdf").load();
     }
 }

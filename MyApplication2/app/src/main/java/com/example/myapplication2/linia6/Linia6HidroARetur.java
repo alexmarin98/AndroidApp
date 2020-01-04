@@ -11,6 +11,6 @@ public class Linia6HidroARetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_hidroa_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_retur_HidroA.pdf").load();
+        pdfView.fromAsset("linia_6_Livada_Postei_Saturn_Hidro_A.pdf").load();
     }
 }
