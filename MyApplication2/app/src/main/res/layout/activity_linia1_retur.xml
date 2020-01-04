@@ -28,67 +28,12 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/livadaPosteiTur"
+                android:id="@+id/triaj"
                 android:layout_width="match_parent"
-                android:layout_height="65dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
                 android:background="@drawable/button_backround"
-                android:text="Livada Postei" />
-
-            <Button
-                android:id="@+id/dramaticTur"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Dramatic"/>
-
-            <Button
-                android:id="@+id/patria"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Patria" />
-
-            <Button
-                android:id="@+id/hidro"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Hidro A" />
-            <Button
-                android:id="@+id/toamnei"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Toamnei" />
-
-            <Button
-                android:id="@+id/toamneiCec"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Toamnei (CEC)" />
-
-            <Button
-                android:id="@+id/ius"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="IUS" />
-
-            <Button
-                android:id="@+id/vlahuta"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Vlahuta" />
-
-            <Button
-                android:id="@+id/aut3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_backround"
-                android:text="Autogara 3" />
+                android:text="Triaj" />
 
             <Button
                 android:id="@+id/rat"
@@ -98,16 +43,68 @@
                 android:text="RAT Brasov" />
 
             <Button
-                android:id="@+id/triaj"
+                android:id="@+id/aut3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Autogara 3" />
+
+            <Button
+                android:id="@+id/vlahuta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Vlahuta" />
+
+            <Button
+                android:id="@+id/ius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="IUS" />
+
+            <Button
+                android:id="@+id/cec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="CEC" />
+
+            <Button
+                android:id="@+id/mesota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Liceul Mesota" />
+
+            <Button
+                android:id="@+id/comert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Camera de Comert" />
+
+            <Button
+                android:id="@+id/sanitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Sanitas " />
+
+            <Button
+                android:id="@+id/primarie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_backround"
+                android:text="Primarie" />
+
+            <Button
+                android:id="@+id/livadaPostei"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="60dp"
                 android:background="@drawable/button_backround"
-                android:text="Triaj" />
-
-
-
-
+                android:text="Livada Postei" />
 
 
         </LinearLayout>

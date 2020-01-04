@@ -6,13 +6,13 @@ import android.os.Bundle;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class Linia1TriajTur extends AppCompatActivity {
+public class Linia1MesotaRetur extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linia1_triaj_tur);
-        PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia_1_Triaj_Livada_Postei_Triaj.pdf").load();
+        setContentView(R.layout.activity_linia1_mesota_retur);
+        PDFView pdfView = (PDFView) findViewById(R.id.pdfViewTur);
+        pdfView.fromAsset("linia_1_Triaj_Livada_Postei_Liceul_Mesota.pdf").load();
     }
 }

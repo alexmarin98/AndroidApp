@@ -13,6 +13,6 @@ public class Linia1Autogara3Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia1_autogara3_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia_1_Livada_Postei_Triaj_Autogara_3(CEC).pdf").load();
+        pdfView.fromAsset("linia_1_Livada_Postei_Triaj_Autogara_3.pdf").load();
     }
 }
