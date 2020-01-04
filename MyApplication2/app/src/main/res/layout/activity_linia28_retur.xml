@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainContent">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width = "409dp"
+        android:layout_height = "729dp"
+        android:layout_marginStart = "1dp"
+        android:layout_marginLeft = "1dp"
+        android:layout_marginTop = "1dp"
+        android:layout_marginEnd = "1dp"
+        android:layout_marginRight = "1dp"
+        android:layout_marginBottom = "1dp"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent">         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation = "vertical">
+            <Button
+                android:id="@+id/iarghimbavRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:layout_marginTop="60dp"
+                android:text="IARGhimbav" />
+            <Button
+                android:id="@+id/caseRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Case" />
+            <Button
+                android:id="@+id/icpcRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="ICPC" />
+            <Button
+                android:id="@+id/fundaturiiclRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="FundaturiiCl" />
+            <Button
+                android:id="@+id/fundaturiiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Fundaturii" />
+            <Button
+                android:id="@+id/albinelorRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Albinelor" />
+            <Button
+                android:id="@+id/podbarsaRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="PodBarsa" />
+            <Button
+                android:id="@+id/bartolomeunordRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="BartolomeuNord" />
+            <Button
+                android:id="@+id/camineiarRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="CamineIAR" />
+            <Button
+                android:id="@+id/postaRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Posta" />
+            <Button
+                android:id="@+id/molnarjanosRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="MolnarJanos" />
+            <Button
+                android:id="@+id/facultativaRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Facultativa" />
+            <Button
+                android:id="@+id/avantgardenRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Avantgarden" />
+            <Button
+                android:id="@+id/roplantRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Roplant" />
+            <Button
+                android:id="@+id/hornbachRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Hornbach" />
+            <Button
+                android:id="@+id/caramidarieiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Caramidariei" />
+            <Button
+                android:id="@+id/stadmunicipalRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="StadMunicipal" />
+            <Button
+                android:id="@+id/bisericabartolomeuRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="BisericaBartolomeu" />
+            <Button
+                android:id="@+id/cariereiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Carierei" />
+            <Button
+                android:id="@+id/memoranduluiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Memorandului" />
+            <Button
+                android:id="@+id/bisericiiromaneRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="BisericiiRomane" />
+            <Button
+                android:id="@+id/astraRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Astra" />
+            <Button
+                android:id="@+id/livadaposteiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="LivadaPostei" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

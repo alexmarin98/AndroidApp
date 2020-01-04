@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainContent">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width = "409dp"
+        android:layout_height = "729dp"
+        android:layout_marginStart = "1dp"
+        android:layout_marginLeft = "1dp"
+        android:layout_marginTop = "1dp"
+        android:layout_marginEnd = "1dp"
+        android:layout_marginRight = "1dp"
+        android:layout_marginBottom = "1dp"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent">         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation = "vertical">
+            <Button
+                android:id="@+id/benzinariapetromTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:layout_marginTop="60dp"
+                android:text="BenzinariaPetrom" />
+            <Button
+                android:id="@+id/haltatimisuldejosTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="HaltaTimisulDeJos" />
+            <Button
+                android:id="@+id/facultativaTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Facultativa" />
+            <Button
+                android:id="@+id/dambulmoriiTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="DambulMorii" />
+            <Button
+                android:id="@+id/pantexTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Pantex" />
+            <Button
+                android:id="@+id/auroraTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Aurora" />
+            <Button
+                android:id="@+id/selgrosTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Selgros" />
+            <Button
+                android:id="@+id/carrefourTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Carrefour" />
+            <Button
+                android:id="@+id/saturnTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Saturn" />
+            <Button
+                android:id="@+id/cometeiTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Cometei" />
+            <Button
+                android:id="@+id/neptunTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Neptun" />
+            <Button
+                android:id="@+id/complexulmareTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="ComplexulMare" />
+            <Button
+                android:id="@+id/gemeniiTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Gemenii" />
+            <Button
+                android:id="@+id/panaitcernaTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="PanaitCerna" />
+            <Button
+                android:id="@+id/branduselorTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Branduselor" />
+            <Button
+                android:id="@+id/salasporturilorTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="SalaSporturilor" />
+            <Button
+                android:id="@+id/garabrasovTur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="GaraBrasov" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

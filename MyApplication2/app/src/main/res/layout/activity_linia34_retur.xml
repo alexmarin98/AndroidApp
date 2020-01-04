@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainContent">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width = "409dp"
+        android:layout_height = "729dp"
+        android:layout_marginStart = "1dp"
+        android:layout_marginLeft = "1dp"
+        android:layout_marginTop = "1dp"
+        android:layout_marginEnd = "1dp"
+        android:layout_marginRight = "1dp"
+        android:layout_marginBottom = "1dp"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent">         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation = "vertical">
+            <Button
+                android:id="@+id/livadaposteiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:layout_marginTop="60dp"
+                android:text="LivadaPostei" />
+            <Button
+                android:id="@+id/dramaticRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Dramatic" />
+            <Button
+                android:id="@+id/patriaRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Patria" />
+            <Button
+                android:id="@+id/hidroaRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="HidroA" />
+            <Button
+                android:id="@+id/toamneiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Toamnei" />
+            <Button
+                android:id="@+id/traianRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Traian" />
+            <Button
+                android:id="@+id/gemeniiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Gemenii" />
+            <Button
+                android:id="@+id/poligrafieRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Poligrafie" />
+            <Button
+                android:id="@+id/romradiatoareRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Romradiatoare" />
+            <Button
+                android:id="@+id/carfilRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Carfil" />
+            <Button
+                android:id="@+id/cernatuluiRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Cernatului" />
+            <Button
+                android:id="@+id/facultativaRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Facultativa" />
+            <Button
+                android:id="@+id/energoRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Energo" />
+            <Button
+                android:id="@+id/silnefRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Silnef" />
+            <Button
+                android:id="@+id/diversitasRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="Diversitas" />
+            <Button
+                android:id="@+id/cetRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="CET" />
+            <Button
+                android:id="@+id/paparealeRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="PapaReale" />
+            <Button
+                android:id="@+id/timistriajRetur"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/button_backround"
+                android:text="TimisTriaj" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

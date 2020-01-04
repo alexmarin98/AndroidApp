@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".com.example.myapplication2.linia50.Linia50TurRetur">
+    <Button
+        android:id = "@+id/tur"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background = "@drawable/button_backround"
+        android:text = "Dus"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent" />
+    <Button
+        android:id = "@+id/retur"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "300dp"
+        android:background = "@drawable/button_backround"
+        android:text = "Intors"
+        app:layout_constraintTop_toTopOf = "parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
