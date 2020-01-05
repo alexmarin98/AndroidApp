@@ -11,6 +11,6 @@ public class Linia15EcTeodoroiuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_ecteodoroiu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_tur_EcTeodoroiu.pdf").load();
+        pdfView.fromAsset("linia_15_Avantgarden_Triaj_Ec._Teodoroiu.pdf").load();
     }
 }

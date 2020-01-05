@@ -11,6 +11,6 @@ public class Linia17PoianaDarsteTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_poianadarste_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_tur_PoianaDarste.pdf").load();
+        pdfView.fromAsset("linia_17_Livada_Postei_Noua_Poiana_Darste.pdf").load();
     }
 }

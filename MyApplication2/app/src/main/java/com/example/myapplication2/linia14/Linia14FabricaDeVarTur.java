@@ -11,6 +11,6 @@ public class Linia14FabricaDeVarTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_fabricadevar_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_tur_FabricaDeVar.pdf").load();
+        pdfView.fromAsset("linia_14_Fabrica_de_Var_Livada_Postei_Fabrica_de_Var.pdf").load();
     }
 }

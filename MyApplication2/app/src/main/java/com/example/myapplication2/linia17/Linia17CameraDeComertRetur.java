@@ -11,6 +11,6 @@ public class Linia17CameraDeComertRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_cameradecomert_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_retur_CameraDeComert.pdf").load();
+        pdfView.fromAsset("linia_17_Noua_Livada_Postei_Camera_de_Comert.pdf").load();
     }
 }

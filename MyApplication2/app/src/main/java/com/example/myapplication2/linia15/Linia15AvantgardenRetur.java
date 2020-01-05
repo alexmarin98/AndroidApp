@@ -11,6 +11,6 @@ public class Linia15AvantgardenRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_avantgarden_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_Avantgarden.pdf").load();
+        pdfView.fromAsset("linia_15_Avantgarden_Triaj_Avantgarden.pdf").load();
     }
 }

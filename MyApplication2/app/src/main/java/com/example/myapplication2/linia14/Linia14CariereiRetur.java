@@ -11,6 +11,6 @@ public class Linia14CariereiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_carierei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_retur_Carierei.pdf").load();
+        pdfView.fromAsset("linia_14_Fabrica_de_Var_Livada_Postei_Carierei.pdf").load();
     }
 }

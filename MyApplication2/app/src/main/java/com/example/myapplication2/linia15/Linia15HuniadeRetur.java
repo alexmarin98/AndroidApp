@@ -11,6 +11,6 @@ public class Linia15HuniadeRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_huniade_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_Huniade.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Huniade.pdf").load();
     }
 }

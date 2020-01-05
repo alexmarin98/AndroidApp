@@ -11,6 +11,6 @@ public class Linia14BisericaBartolomeuRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_bisericabartolomeu_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_retur_BisericaBartolomeu.pdf").load();
+        pdfView.fromAsset("linia_14_Livada_Postei_Fabrica_de_Var_Biserica_Bartolomeu.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia14RasaritulTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_rasaritul_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_tur_Rasaritul.pdf").load();
+        pdfView.fromAsset("linia_14_Livada_Postei_Fabrica_de_Var_Rasaritul.pdf").load();
     }
 }

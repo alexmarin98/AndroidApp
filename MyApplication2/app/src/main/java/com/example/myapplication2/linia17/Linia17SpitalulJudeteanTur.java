@@ -11,6 +11,6 @@ public class Linia17SpitalulJudeteanTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_spitaluljudetean_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_tur_SpitalulJudetean.pdf").load();
+        pdfView.fromAsset("linia_17_Livada_Postei_Noua_Spitalul_Judetean.pdf").load();
     }
 }

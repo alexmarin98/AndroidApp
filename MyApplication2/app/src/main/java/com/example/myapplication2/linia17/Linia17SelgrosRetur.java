@@ -11,6 +11,6 @@ public class Linia17SelgrosRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_selgros_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_retur_Selgros.pdf").load();
+        pdfView.fromAsset("linia_17_Noua_Livada_Postei_Selgros.pdf").load();
     }
 }

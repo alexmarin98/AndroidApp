@@ -11,6 +11,6 @@ public class Linia14CariereiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_carierei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_tur_Carierei.pdf").load();
+        pdfView.fromAsset("linia_14_Livada_Postei_Fabrica_de_Var_Carierei.pdf").load();
     }
 }

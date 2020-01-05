@@ -11,6 +11,6 @@ public class Linia15ZlatnaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_zlatna_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_Zlatna.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Zlatna.pdf").load();
     }
 }

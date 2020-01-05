@@ -11,6 +11,6 @@ public class Linia15EgreteiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_egretei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_tur_Egretei.pdf").load();
+        pdfView.fromAsset("linia_15_Avantgarden_Triaj_Egretei.pdf").load();
     }
 }
