@@ -11,6 +11,6 @@ public class Linia15MolnarJanosRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_molnarjanos_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_MolnarJanos.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Molnar_Janos.pdf").load();
     }
 }

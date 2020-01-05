@@ -11,6 +11,6 @@ public class Linia15Coresi2Retur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_coresi2_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_Coresi2.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Coresi_2.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia15RATBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_ratbrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_RATBrasov.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_RAT_Brasov.pdf").load();
     }
 }

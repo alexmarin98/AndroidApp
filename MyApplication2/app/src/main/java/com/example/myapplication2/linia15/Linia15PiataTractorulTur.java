@@ -11,6 +11,6 @@ public class Linia15PiataTractorulTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_piatatractorul_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_tur_PiataTractorul.pdf").load();
+        pdfView.fromAsset("linia_15_Avantgarden_Triaj_Piata_Tractorul.pdf").load();
     }
 }

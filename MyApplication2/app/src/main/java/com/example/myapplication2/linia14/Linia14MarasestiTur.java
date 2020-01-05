@@ -11,6 +11,6 @@ public class Linia14MarasestiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_marasesti_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_tur_Marasesti.pdf").load();
+        pdfView.fromAsset("linia_14_Livada_Postei_Fabrica_de_Var_Marasesti.pdf").load();
     }
 }

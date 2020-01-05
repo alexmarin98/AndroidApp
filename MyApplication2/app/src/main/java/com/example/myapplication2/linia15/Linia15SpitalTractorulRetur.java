@@ -11,6 +11,6 @@ public class Linia15SpitalTractorulRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_spitaltractorul_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_SpitalTractorul.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Spital_Tractorul.pdf").load();
     }
 }

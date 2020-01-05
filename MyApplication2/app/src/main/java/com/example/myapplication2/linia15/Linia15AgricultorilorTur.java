@@ -11,6 +11,6 @@ public class Linia15AgricultorilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_agricultorilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_tur_Agricultorilor.pdf").load();
+        pdfView.fromAsset("linia_15_Avantgarden_Triaj_Agricultorilor.pdf").load();
     }
 }

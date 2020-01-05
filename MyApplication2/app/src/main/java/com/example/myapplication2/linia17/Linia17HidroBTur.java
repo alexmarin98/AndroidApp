@@ -11,6 +11,6 @@ public class Linia17HidroBTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_hidrob_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_tur_HidroB.pdf").load();
+        pdfView.fromAsset("linia_17_Livada_Postei_Noua_Hidro_B.pdf").load();
     }
 }

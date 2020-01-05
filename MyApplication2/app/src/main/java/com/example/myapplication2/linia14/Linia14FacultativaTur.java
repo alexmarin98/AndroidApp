@@ -11,6 +11,6 @@ public class Linia14FacultativaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_facultativa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_tur_Facultativa.pdf").load();
+        pdfView.fromAsset("linia_14_Livada_Postei_Fabrica_de_Var_Facultativa.pdf").load();
     }
 }

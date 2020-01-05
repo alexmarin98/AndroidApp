@@ -11,6 +11,6 @@ public class Linia15CosmestiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_cosmesti_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_Cosmesti.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Cosmesti.pdf").load();
     }
 }

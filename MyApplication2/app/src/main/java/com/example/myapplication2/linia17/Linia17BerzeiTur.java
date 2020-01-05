@@ -11,6 +11,6 @@ public class Linia17BerzeiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_berzei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_tur_Berzei.pdf").load();
+        pdfView.fromAsset("linia_17_Livada_Postei_Noua_Berzei.pdf").load();
     }
 }

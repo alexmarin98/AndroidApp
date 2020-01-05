@@ -11,6 +11,6 @@ public class Linia17ScGen9Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_scgen9_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_tur_ScGen9.pdf").load();
+        pdfView.fromAsset("linia_17_Livada_Postei_Noua_Sc._Gen._9.pdf").load();
     }
 }

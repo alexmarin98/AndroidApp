@@ -11,6 +11,6 @@ public class Linia17SoareluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_soarelui_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_retur_Soarelui.pdf").load();
+        pdfView.fromAsset("linia_17_Noua_Livada_Postei_Soarelui.pdf").load();
     }
 }

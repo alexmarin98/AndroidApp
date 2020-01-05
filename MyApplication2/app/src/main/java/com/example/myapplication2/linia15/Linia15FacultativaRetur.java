@@ -11,6 +11,6 @@ public class Linia15FacultativaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia15_facultativa_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia15_retur_Facultativa.pdf").load();
+        pdfView.fromAsset("linia_15_Triaj_Avantgarden_Facultativa.pdf").load();
     }
 }

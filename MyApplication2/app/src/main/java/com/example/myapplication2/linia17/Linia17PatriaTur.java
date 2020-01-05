@@ -11,6 +11,6 @@ public class Linia17PatriaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17_patria_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17_tur_Patria.pdf").load();
+        pdfView.fromAsset("linia_17_Livada_Postei_Noua_Patria.pdf").load();
     }
 }

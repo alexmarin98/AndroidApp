@@ -11,6 +11,6 @@ public class Linia14BisericiiRomaneRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia14_bisericiiromane_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia14_retur_BisericiiRomane.pdf").load();
+        pdfView.fromAsset("linia_14_Fabrica_de_Var_Livada_Postei_Bisericii_Romane.pdf").load();
     }
 }
