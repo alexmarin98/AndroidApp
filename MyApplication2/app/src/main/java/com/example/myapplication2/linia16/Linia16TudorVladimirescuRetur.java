@@ -11,6 +11,6 @@ public class Linia16TudorVladimirescuRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_tudorvladimirescu_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_retur_TudorVladimirescu.pdf").load();
+        pdfView.fromAsset("linia_16_Livada_Postei_Stad._Municipal_Tudor_Vladimirescu.pdf").load();
     }
 }

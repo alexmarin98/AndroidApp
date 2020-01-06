@@ -11,6 +11,6 @@ public class Linia17BSaturnRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_saturn_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_retur_Saturn.pdf").load();
+        pdfView.fromAsset("linia_17b_Benzinaria_Petrom_Gara_Brasov_Saturn.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia10CarpatilorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_carpatilor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_Carpatilor.pdf").load();
+        pdfView.fromAsset("linia10_CARPATIILOR_I_Triaj_Valea_Cetatii_Carpatilor.pdf").load();
     }
 }

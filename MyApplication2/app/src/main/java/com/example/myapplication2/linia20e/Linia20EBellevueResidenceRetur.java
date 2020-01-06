@@ -11,6 +11,6 @@ public class Linia20EBellevueResidenceRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia20e_bellevueresidence_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia20e_retur_BellevueResidence.pdf").load();
+        pdfView.fromAsset("linia_20_Poiana_Brasov_Livada_Postei_Bellevue_Residence.pdf").load();
     }
 }

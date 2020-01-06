@@ -11,6 +11,6 @@ public class Linia17BPantexTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_pantex_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_tur_Pantex.pdf").load();
+        pdfView.fromAsset("linia_17b_Benzinaria_Petrom_Gara_Brasov_Pantex.pdf").load();
     }
 }

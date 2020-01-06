@@ -11,6 +11,6 @@ public class Linia10PiataDecebalTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_piatadecebal_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_PiataDecebal.pdf").load();
+        pdfView.fromAsset("linia10_PIATA_DECEB_D_Valea_Cetatii_Triaj_Piata_Decebal.pdf").load();
     }
 }

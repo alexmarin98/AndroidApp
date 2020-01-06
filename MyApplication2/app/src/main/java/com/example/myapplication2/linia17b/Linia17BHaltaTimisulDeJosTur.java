@@ -11,6 +11,6 @@ public class Linia17BHaltaTimisulDeJosTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_haltatimisuldejos_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_tur_HaltaTimisulDeJos.pdf").load();
+        pdfView.fromAsset("linia_17b_Gara_Brasov_Benzinaria_Petrom_Halta_Timisul_de_Jos.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia10IUSRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_ius_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_IUS.pdf").load();
+        pdfView.fromAsset("linia10_IUS_D_Triaj_Valea_Cetatii_IUS.pdf").load();
     }
 }

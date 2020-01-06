@@ -11,6 +11,6 @@ public class Linia10ToamneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_toamnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia10_TOAMNEI_Valea_Cetatii_Triaj_Toamnei.pdf").load();
     }
 }

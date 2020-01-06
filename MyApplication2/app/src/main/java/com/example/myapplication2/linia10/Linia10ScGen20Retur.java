@@ -11,6 +11,6 @@ public class Linia10ScGen20Retur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_scgen20_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_ScGen20.pdf").load();
+        pdfView.fromAsset("linia10_SC_GEN_20_I_Triaj_Valea_Cetatii_Sc._Gen._20.pdf").load();
     }
 }

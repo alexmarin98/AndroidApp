@@ -11,6 +11,6 @@ public class Linia20EFacultativaIIRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia20e_facultativaii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia20e_retur_FacultativaII.pdf").load();
+        pdfView.fromAsset("linia_20_Poiana_Brasov_Livada_Postei_Facultativa_II.pdf").load();
     }
 }

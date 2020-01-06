@@ -11,6 +11,6 @@ public class Linia10TriajRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_triaj_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_Triaj.pdf").load();
+        pdfView.fromAsset("linia10_TRIAJ_Triaj_Valea_Cetatii_Triaj.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia8CometeiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_cometei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_Cometei.pdf").load();
+        pdfView.fromAsset("linia_8_Saturn_Rulmentul_Cometei.pdf").load();
     }
 }

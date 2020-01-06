@@ -11,6 +11,6 @@ public class Linia8CoresiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_coresi_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_Coresi.pdf").load();
+        pdfView.fromAsset("linia_8_Saturn_Rulmentul_Coresi.pdf").load();
     }
 }

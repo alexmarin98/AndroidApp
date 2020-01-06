@@ -11,6 +11,6 @@ public class Linia16ServiceRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_service_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_retur_Service.pdf").load();
+        pdfView.fromAsset("linia_16_Livada_Postei_Stad._Municipal_Service.pdf").load();
     }
 }

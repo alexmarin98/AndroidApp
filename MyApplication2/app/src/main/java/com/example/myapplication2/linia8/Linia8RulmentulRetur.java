@@ -11,6 +11,6 @@ public class Linia8RulmentulRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_rulmentul_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_Rulmentul.pdf").load();
+        pdfView.fromAsset("linia_8_Rulmentul_Saturn_Rulmentul.pdf").load();
     }
 }

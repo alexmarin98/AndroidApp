@@ -11,6 +11,6 @@ public class Linia8NeptunTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_neptun_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_tur_Neptun.pdf").load();
+        pdfView.fromAsset("linia_8_Rulmentul_Saturn_Neptun.pdf").load();
     }
 }

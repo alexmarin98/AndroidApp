@@ -11,6 +11,6 @@ public class Linia10CECTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_cec_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_CEC.pdf").load();
+        pdfView.fromAsset("linia10_CEC_D_Triaj_Valea_Cetatii_CEC.pdf").load();
     }
 }

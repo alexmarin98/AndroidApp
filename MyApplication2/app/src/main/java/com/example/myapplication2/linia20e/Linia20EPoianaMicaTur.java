@@ -11,6 +11,6 @@ public class Linia20EPoianaMicaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia20e_poianamica_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia20e_tur_PoianaMica.pdf").load();
+        pdfView.fromAsset("linia_20_Livada_Postei_Poiana_Brasov_Poiana_Mica.pdf").load();
     }
 }

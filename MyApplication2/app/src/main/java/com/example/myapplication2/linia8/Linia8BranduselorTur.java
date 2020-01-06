@@ -11,6 +11,6 @@ public class Linia8BranduselorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_branduselor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_tur_Branduselor.pdf").load();
+        pdfView.fromAsset("linia_8_Rulmentul_Saturn_Branduselor.pdf").load();
     }
 }

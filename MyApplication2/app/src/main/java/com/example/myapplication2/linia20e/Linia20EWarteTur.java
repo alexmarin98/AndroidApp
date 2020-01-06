@@ -11,6 +11,6 @@ public class Linia20EWarteTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia20e_warte_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia20e_tur_Warte.pdf").load();
+        pdfView.fromAsset("linia_20_Livada_Postei_Poiana_Brasov_Warte.pdf").load();
     }
 }

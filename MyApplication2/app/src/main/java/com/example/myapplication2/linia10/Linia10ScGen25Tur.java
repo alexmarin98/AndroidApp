@@ -11,6 +11,6 @@ public class Linia10ScGen25Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_scgen25_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_ScGen25.pdf").load();
+        pdfView.fromAsset("linia10_SC_GEN_25_Triaj_Valea_Cetatii_Sc._Gen._25.pdf").load();
     }
 }

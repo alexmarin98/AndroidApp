@@ -11,6 +11,6 @@ public class Linia10HidroATur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_hidroa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_HidroA.pdf").load();
+        pdfView.fromAsset("linia10_HIDRO_A_Triaj_Valea_Cetatii_Hidro_A.pdf").load();
     }
 }
