@@ -11,6 +11,6 @@ public class Linia37Autogara3Retur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_autogara3_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_retur_Autogara3.pdf").load();
+        pdfView.fromAsset("linia_37_Craiter_Hidro_A_Autogara_3.pdf").load();
     }
 }

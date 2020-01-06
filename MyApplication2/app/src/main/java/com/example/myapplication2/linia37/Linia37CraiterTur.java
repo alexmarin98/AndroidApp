@@ -11,6 +11,6 @@ public class Linia37CraiterTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_craiter_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_tur_Craiter.pdf").load();
+        pdfView.fromAsset("linia_37_Craiter_Hidro_A_Craiter.pdf").load();
     }
 }

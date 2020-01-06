@@ -11,6 +11,6 @@ public class Linia37IntCeferistilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_intceferistilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_tur_IntCeferistilor.pdf").load();
+        pdfView.fromAsset("linia_37_Hidro_A_Craiter_Ceferistilor.pdf").load();
     }
 }
