@@ -11,6 +11,6 @@ public class Linia8VlahutaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_vlahuta_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_tur_Vlahuta.pdf").load();
+        pdfView.fromAsset("linia_8_Rulmentul_Saturn_Vlahuta.pdf").load();
     }
 }

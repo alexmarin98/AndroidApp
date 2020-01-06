@@ -11,6 +11,6 @@ public class Linia17BVlahutaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_vlahuta_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_retur_Vlahuta.pdf").load();
+        pdfView.fromAsset("linia_17b_Gara_Brasov_Benzinaria_Petrom_Vlahuta.pdf").load();
     }
 }

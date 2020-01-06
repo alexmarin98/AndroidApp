@@ -11,6 +11,6 @@ public class Linia10MunciiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_muncii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_Muncii.pdf").load();
+        pdfView.fromAsset("linia10_MUNCII_I_Triaj_Valea_Cetatii_Muncii.pdf").load();
     }
 }

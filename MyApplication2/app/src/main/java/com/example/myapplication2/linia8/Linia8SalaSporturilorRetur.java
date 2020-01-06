@@ -11,6 +11,6 @@ public class Linia8SalaSporturilorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_salasporturilor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_SalaSporturilor.pdf").load();
+        pdfView.fromAsset("linia_8_Saturn_Rulmentul_Sala_Sporturilor.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia8GemeniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_gemenii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_8_Saturn_Rulmentul_Gemenii.pdf").load();
     }
 }

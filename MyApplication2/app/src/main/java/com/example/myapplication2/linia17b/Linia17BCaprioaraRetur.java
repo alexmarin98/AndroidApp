@@ -11,6 +11,6 @@ public class Linia17BCaprioaraRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_caprioara_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_retur_Caprioara.pdf").load();
+        pdfView.fromAsset("linia_17b_Gara_Brasov_Benzinaria_Petrom_Caprioara.pdf").load();
     }
 }

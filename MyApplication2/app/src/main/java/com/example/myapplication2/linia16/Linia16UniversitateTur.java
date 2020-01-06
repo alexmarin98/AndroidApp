@@ -11,6 +11,6 @@ public class Linia16UniversitateTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_universitate_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_tur_Universitate.pdf").load();
+        pdfView.fromAsset("linia_16_Livada_Postei_Stad._Municipal_Universitate.pdf").load();
     }
 }

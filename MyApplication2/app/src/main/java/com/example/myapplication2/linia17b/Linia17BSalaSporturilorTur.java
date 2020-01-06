@@ -11,6 +11,6 @@ public class Linia17BSalaSporturilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_salasporturilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_tur_SalaSporturilor.pdf").load();
+        pdfView.fromAsset("linia_17b_Benzinaria_Petrom_Gara_Brasov_Sala_Sporturilor.pdf").load();
     }
 }

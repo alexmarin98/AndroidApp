@@ -11,6 +11,6 @@ public class Linia8FagetRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_faget_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_Faget.pdf").load();
+        pdfView.fromAsset("linia_8_Saturn_Rulmentul_Faget.pdf").load();
     }
 }

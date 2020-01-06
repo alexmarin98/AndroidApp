@@ -11,6 +11,6 @@ public class Linia8LiceulTractorulRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_liceultractorul_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_retur_LiceulTractorul.pdf").load();
+        pdfView.fromAsset("linia_8_Saturn_Rulmentul_Liceul_Tractorul.pdf").load();
     }
 }

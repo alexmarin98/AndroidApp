@@ -11,6 +11,6 @@ public class Linia17BFacultativaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_facultativa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_tur_Facultativa.pdf").load();
+        pdfView.fromAsset("linia_17b_Gara_Brasov_Benzinaria_Petrom_Facultativa.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia10CarpatilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_carpatilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_Carpatilor.pdf").load();
+        pdfView.fromAsset("linia10_CARPATIILOR_D_Valea_Cetatii_Triaj_Carpatilor.pdf").load();
     }
 }

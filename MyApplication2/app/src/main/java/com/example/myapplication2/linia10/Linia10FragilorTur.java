@@ -11,6 +11,6 @@ public class Linia10FragilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_fragilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_Fragilor.pdf").load();
+        pdfView.fromAsset("linia10_FRAGILOR_D_Valea_Cetatii_Triaj_Fragilor.pdf").load();
     }
 }

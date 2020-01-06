@@ -11,6 +11,6 @@ public class Linia16AcademiaHenriCoandaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_academiahenricoanda_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_tur_AcademiaHenriCoanda.pdf").load();
+        pdfView.fromAsset("linia_16_Stad._Municipal_Livada_Postei_Academia_Henri_Coanda.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia20EPoianaBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia20e_poianabrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia20e_retur_PoianaBrasov.pdf").load();
+        pdfView.fromAsset("linia_20_Poiana_Brasov_Livada_Postei_Poiana_Brasov.pdf").load();
     }
 }

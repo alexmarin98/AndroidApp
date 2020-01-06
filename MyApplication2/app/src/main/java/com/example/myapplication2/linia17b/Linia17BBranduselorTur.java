@@ -11,6 +11,6 @@ public class Linia17BBranduselorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_branduselor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_tur_Branduselor.pdf").load();
+        pdfView.fromAsset("linia_17b_Gara_Brasov_Benzinaria_Petrom_Branduselor.pdf").load();
     }
 }

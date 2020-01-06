@@ -11,6 +11,6 @@ public class Linia10RATBrasovTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_ratbrasov_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_RATBrasov.pdf").load();
+        pdfView.fromAsset("linia10_RATBV_I_Valea_Cetatii_Triaj_RAT_Brasov.pdf").load();
     }
 }

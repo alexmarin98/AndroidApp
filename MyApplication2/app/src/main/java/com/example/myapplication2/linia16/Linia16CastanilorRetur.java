@@ -11,6 +11,6 @@ public class Linia16CastanilorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_castanilor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_retur_Castanilor.pdf").load();
+        pdfView.fromAsset("linia_16_Livada_Postei_Stad._Municipal_Castanilor.pdf").load();
     }
 }

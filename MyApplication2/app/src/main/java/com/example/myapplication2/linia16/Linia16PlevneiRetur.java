@@ -11,6 +11,6 @@ public class Linia16PlevneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_plevnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_retur_Plevnei.pdf").load();
+        pdfView.fromAsset("linia_16_Stad._Municipal_Livada_Postei_Plevnei.pdf").load();
     }
 }

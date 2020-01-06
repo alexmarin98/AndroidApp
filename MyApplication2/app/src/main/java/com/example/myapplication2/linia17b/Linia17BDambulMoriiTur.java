@@ -11,6 +11,6 @@ public class Linia17BDambulMoriiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_dambulmorii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_tur_DambulMorii.pdf").load();
+        pdfView.fromAsset("linia_17b_Gara_Brasov_Benzinaria_Petrom_Dambul_Morii.pdf").load();
     }
 }

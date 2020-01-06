@@ -11,6 +11,6 @@ public class Linia16StadionulTineretuluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia16_stadionultineretului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia16_retur_StadionulTineretului.pdf").load();
+        pdfView.fromAsset("linia_16_Stad._Municipal_Livada_Postei_Stadionul_Tineretului.pdf").load();
     }
 }

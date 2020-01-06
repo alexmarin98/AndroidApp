@@ -11,6 +11,6 @@ public class Linia10ValeaCetatiiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_valeacetatii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_tur_ValeaCetatii.pdf").load();
+        pdfView.fromAsset("linia10_VALEA_CETATII_CAP_Valea_Cetatii_Triaj_Valea_Cetatii.pdf").load();
     }
 }

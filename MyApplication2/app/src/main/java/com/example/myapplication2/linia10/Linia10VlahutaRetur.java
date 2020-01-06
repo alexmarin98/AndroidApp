@@ -11,6 +11,6 @@ public class Linia10VlahutaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia10_vlahuta_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia10_retur_Vlahuta.pdf").load();
+        pdfView.fromAsset("linia10_VLAHUTA_D_Triaj_Valea_Cetatii_Vlahuta.pdf").load();
     }
 }

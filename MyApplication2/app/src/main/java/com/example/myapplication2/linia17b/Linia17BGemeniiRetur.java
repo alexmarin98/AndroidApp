@@ -11,6 +11,6 @@ public class Linia17BGemeniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia17b_gemenii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia17b_retur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_17b_Benzinaria_Petrom_Gara_Brasov_Gemenii.pdf").load();
     }
 }

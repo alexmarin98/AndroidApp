@@ -11,6 +11,6 @@ public class Linia8GemeniiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia8_gemenii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia8_tur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_8_Rulmentul_Saturn_Gemenii.pdf").load();
     }
 }
