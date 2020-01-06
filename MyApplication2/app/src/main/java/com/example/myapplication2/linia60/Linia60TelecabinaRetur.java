@@ -11,6 +11,6 @@ public class Linia60TelecabinaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia60_telecabina_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia60_retur_Telecabina.pdf").load();
+        pdfView.fromAsset("linia_60_Telecabina_Silver_Mountain_Telecabina.pdf").load();
     }
 }

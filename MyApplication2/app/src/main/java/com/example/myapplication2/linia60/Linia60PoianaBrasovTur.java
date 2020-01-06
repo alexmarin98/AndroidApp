@@ -11,6 +11,6 @@ public class Linia60PoianaBrasovTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia60_poianabrasov_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia60_tur_PoianaBrasov.pdf").load();
+        pdfView.fromAsset("linia_60_Silver_Mountain_Telecabina_Poiana_Brasov.pdf").load();
     }
 }
