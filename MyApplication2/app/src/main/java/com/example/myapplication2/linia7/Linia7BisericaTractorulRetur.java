@@ -11,6 +11,6 @@ public class Linia7BisericaTractorulRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_bisericatractorul_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_BisericaTractorul.pdf").load();
+        pdfView.fromAsset("linia7_BISERICA_TRAC_Rulmentul_Roman_Biserica_Tractorul.pdf").load();
     }
 }

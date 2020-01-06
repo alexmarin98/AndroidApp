@@ -11,6 +11,6 @@ public class Linia3PlevneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_plevnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_retur_Plevnei.pdf").load();
+        pdfView.fromAsset("linia3_PLEVNEI_I_Valea_Cetatii_Stadionul_Tineretului_Plevnei.pdf").load();
     }
 }

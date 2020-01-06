@@ -11,6 +11,6 @@ public class Linia3FragilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_fragilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_tur_Fragilor.pdf").load();
+        pdfView.fromAsset("linia3FRAGILOR_I_Stadionul_Tineretului_Valea_Cetatii_Fragilor.pdf").load();
     }
 }

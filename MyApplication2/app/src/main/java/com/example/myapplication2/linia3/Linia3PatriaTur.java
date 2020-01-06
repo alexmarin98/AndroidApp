@@ -11,6 +11,6 @@ public class Linia3PatriaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_patria_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_tur_Patria.pdf").load();
+        pdfView.fromAsset("linia3_PATRIA_Stadionul_Tineretului_Valea_Cetatii_Patria.pdf").load();
     }
 }

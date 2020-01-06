@@ -11,6 +11,6 @@ public class Linia3ScGen20Retur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_scgen20_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_retur_ScGen20.pdf").load();
+        pdfView.fromAsset("linia3_SC_GEN_20_D_Valea_Cetatii_Stadionul_Tineretului_Sc._Gen._20.pdf").load();
     }
 }

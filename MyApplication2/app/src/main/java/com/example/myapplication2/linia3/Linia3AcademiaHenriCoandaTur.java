@@ -11,6 +11,6 @@ public class Linia3AcademiaHenriCoandaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_academiahenricoanda_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_tur_AcademiaHenriCoanda.pdf").load();
+        pdfView.fromAsset("linia3_RAZBOIENEI_Stadionul_Tineretului_Valea_Cetatii_Academia_Henri_Coanda.pdf").load();
     }
 }

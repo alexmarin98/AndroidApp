@@ -11,6 +11,6 @@ public class Linia7RomanTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_roman_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_tur_Roman.pdf").load();
+        pdfView.fromAsset("linia7_ROMAN_Roman_Rulmentul_Roman.pdf").load();
     }
 }

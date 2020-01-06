@@ -11,6 +11,6 @@ public class Linia7MirceaCelBatranRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_mirceacelbatran_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_MirceaCelBatran.pdf").load();
+        pdfView.fromAsset("linia7_MIRCEA_BAT_I_Roman_Rulmentul_Mircea_cel_Batran.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia3OnixRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_onix_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_retur_Onix.pdf").load();
+        pdfView.fromAsset("linia3_ONIX_BART_Valea_Cetatii_Stadionul_Tineretului_Onix.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia7VulturuluiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_vulturului_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_tur_Vulturului.pdf").load();
+        pdfView.fromAsset("linia7_VULTURUL_I_Rulmentul_Roman_Vulturului.pdf").load();
     }
 }

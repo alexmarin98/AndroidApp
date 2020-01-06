@@ -11,6 +11,6 @@ public class Linia3MunciiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_muncii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_retur_Muncii.pdf").load();
+        pdfView.fromAsset("linia3_MUNCII_D_Valea_Cetatii_Stadionul_Tineretului_Muncii.pdf").load();
     }
 }

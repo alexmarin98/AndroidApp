@@ -11,6 +11,6 @@ public class Linia7CoresiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_coresi_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_tur_Coresi.pdf").load();
+        pdfView.fromAsset("linia7_CORESI_D_Rulmentul_Roman_Coresi.pdf").load();
     }
 }

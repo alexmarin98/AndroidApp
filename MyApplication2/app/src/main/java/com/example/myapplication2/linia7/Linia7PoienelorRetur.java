@@ -11,6 +11,6 @@ public class Linia7PoienelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_poienelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_Poienelor.pdf").load();
+        pdfView.fromAsset("linia7_POIENELOR_D_Roman_Rulmentul_Poienelor.pdf").load();
     }
 }

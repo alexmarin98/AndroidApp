@@ -11,6 +11,6 @@ public class Linia6ComplexulMareTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia6_complexulmare_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia6_tur_ComplexulMare.pdf").load();
+        pdfView.fromAsset("linia_6_Saturn_Livada_Postei_Complexul_Mare.pdf").load();
     }
 }

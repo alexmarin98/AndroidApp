@@ -11,6 +11,6 @@ public class Linia7OnixRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_onix_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_Onix.pdf").load();
+        pdfView.fromAsset("linia7_ONIX_TRACT_Roman_Rulmentul_Onix.pdf").load();
     }
 }

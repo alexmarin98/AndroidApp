@@ -11,6 +11,6 @@ public class Linia3FartecTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_fartec_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_tur_Fartec.pdf").load();
+        pdfView.fromAsset("linia3_FARTEC_Stadionul_Tineretului_Valea_Cetatii_Fartec.pdf").load();
     }
 }
