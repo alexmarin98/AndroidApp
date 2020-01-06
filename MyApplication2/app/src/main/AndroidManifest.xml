@@ -74,6 +74,9 @@
         <activity android:name=".linia4.LInia4Tur" />
         <activity android:name=".linia4.Linia4TurRetur" />
         <activity android:name=".linia5.Linia5AstraRetur" />
+        <activity android:name=".linia5.Linia5TurRetur" />
+        <activity android:name=".linia5.Linia5Tur" />
+        <activity android:name=".linia5.Linia5Retur" />
         <activity android:name=".linia5.Linia5AstraTur" />
         <activity android:name=".linia5.Linia5BartolomeuGaraRetur" />
         <activity android:name=".linia5.Linia5BerzeiRetur" />
