@@ -11,6 +11,6 @@ public class Linia60PoianaMicaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia60_poianamica_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia60_retur_PoianaMica.pdf").load();
+        pdfView.fromAsset("linia_60_Telecabina_Silver_Mountain_Poiana_Mica.pdf").load();
     }
 }

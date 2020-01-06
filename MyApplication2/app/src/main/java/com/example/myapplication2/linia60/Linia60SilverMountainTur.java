@@ -11,6 +11,6 @@ public class Linia60SilverMountainTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia60_silvermountain_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia60_tur_SilverMountain.pdf").load();
+        pdfView.fromAsset("linia_60_Silver_Mountain_Telecabina_Silver_Mountain.pdf").load();
     }
 }
