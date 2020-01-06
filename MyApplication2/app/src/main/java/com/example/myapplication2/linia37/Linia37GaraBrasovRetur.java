@@ -11,6 +11,6 @@ public class Linia37GaraBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_garabrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_retur_GaraBrasov.pdf").load();
+        pdfView.fromAsset("linia_37_Craiter_Hidro_A_Gara_Brasov.pdf").load();
     }
 }

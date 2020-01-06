@@ -11,6 +11,6 @@ public class Linia37LiceulMesotaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_liceulmesota_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_retur_LiceulMesota.pdf").load();
+        pdfView.fromAsset("linia_37_Craiter_Hidro_A_Liceul_Mesota.pdf").load();
     }
 }

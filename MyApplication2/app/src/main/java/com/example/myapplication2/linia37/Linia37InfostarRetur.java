@@ -11,6 +11,6 @@ public class Linia37InfostarRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_infostar_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_retur_Infostar.pdf").load();
+        pdfView.fromAsset("linia_37_Hidro_A_Craiter_Infostar.pdf").load();
     }
 }

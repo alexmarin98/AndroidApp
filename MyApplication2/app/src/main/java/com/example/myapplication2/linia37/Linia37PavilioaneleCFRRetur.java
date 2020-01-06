@@ -11,6 +11,6 @@ public class Linia37PavilioaneleCFRRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia37_pavilioanelecfr_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia37_retur_PavilioaneleCFR.pdf").load();
+        pdfView.fromAsset("linia_37_Craiter_Hidro_A_Pavilioanele_CFR.pdf").load();
     }
 }
