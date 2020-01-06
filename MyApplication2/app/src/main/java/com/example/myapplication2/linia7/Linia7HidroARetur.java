@@ -11,6 +11,6 @@ public class Linia7HidroARetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_hidroa_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_HidroA.pdf").load();
+        pdfView.fromAsset("linia7_HIDRO_A_Rulmentul_Roman_Hidro_A.pdf").load();
     }
 }

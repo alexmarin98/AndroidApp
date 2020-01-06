@@ -11,6 +11,6 @@ public class Linia7ToamneiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_toamnei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_tur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia7_TOAMNEI_Roman_Rulmentul_Toamnei.pdf").load();
     }
 }

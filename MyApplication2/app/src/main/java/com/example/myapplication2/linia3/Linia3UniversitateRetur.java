@@ -11,6 +11,6 @@ public class Linia3UniversitateRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_universitate_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_retur_Universitate.pdf").load();
+        pdfView.fromAsset("linia3_UNIV_CORP_V_I_Valea_Cetatii_Stadionul_Tineretului_Universitate.pdf").load();
     }
 }

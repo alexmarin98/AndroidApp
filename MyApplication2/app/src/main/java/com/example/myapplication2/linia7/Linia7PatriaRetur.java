@@ -11,6 +11,6 @@ public class Linia7PatriaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_patria_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_Patria.pdf").load();
+        pdfView.fromAsset("linia7_PATRIA_Rulmentul_Roman_Patria.pdf").load();
     }
 }

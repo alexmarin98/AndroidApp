@@ -11,6 +11,6 @@ public class Linia7MetromTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_metrom_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_tur_Metrom.pdf").load();
+        pdfView.fromAsset("linia7_METROM_I_Rulmentul_Roman_Metrom.pdf").load();
     }
 }

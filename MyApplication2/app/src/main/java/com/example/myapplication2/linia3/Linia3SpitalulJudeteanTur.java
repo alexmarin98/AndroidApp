@@ -11,6 +11,6 @@ public class Linia3SpitalulJudeteanTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_spitaluljudetean_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_tur_SpitalulJudetean.pdf").load();
+        pdfView.fromAsset("linia3_SPIT_JUD_CETATE_Stadionul_Tineretului_Valea_Cetatii_Spitalul_Judetean.pdf").load();
     }
 }

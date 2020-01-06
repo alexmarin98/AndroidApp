@@ -11,6 +11,6 @@ public class Linia7NLabisTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_nlabis_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_tur_NLabis.pdf").load();
+        pdfView.fromAsset("linia7_LABIS_D_Rulmentul_Roman_N._Labis.pdf").load();
     }
 }

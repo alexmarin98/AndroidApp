@@ -11,6 +11,6 @@ public class Linia3TudorVladimirescuRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia3_tudorvladimirescu_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia3_retur_TudorVladimirescu.pdf").load();
+        pdfView.fromAsset("linia3_TUDOR_VLAD_I_Valea_Cetatii_Stadionul_Tineretului_Tudor_Vladimirescu.pdf").load();
     }
 }

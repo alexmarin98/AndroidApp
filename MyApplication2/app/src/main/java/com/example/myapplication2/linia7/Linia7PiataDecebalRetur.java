@@ -11,6 +11,6 @@ public class Linia7PiataDecebalRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia7_piatadecebal_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia7_retur_PiataDecebal.pdf").load();
+        pdfView.fromAsset("linia7_PIATA_DECEB_D_Roman_Rulmentul_Piata_Decebal.pdf").load();
     }
 }
