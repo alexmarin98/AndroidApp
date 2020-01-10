@@ -11,6 +11,6 @@ public class Linia36DramaticRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_dramatic_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_retur_Dramatic.pdf").load();
+        pdfView.fromAsset("linia_36_Livada_Postei_Independentei_Dramatic.pdf").load();
     }
 }

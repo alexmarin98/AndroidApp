@@ -11,6 +11,6 @@ public class Linia36MirceaCelBatranRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_mirceacelbatran_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_retur_MirceaCelBatran.pdf").load();
+        pdfView.fromAsset("linia_36_Livada_Postei_Independentei_Mircea_cel_Batran.pdf").load();
     }
 }

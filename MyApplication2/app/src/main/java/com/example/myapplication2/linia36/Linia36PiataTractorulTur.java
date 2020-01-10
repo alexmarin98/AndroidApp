@@ -11,6 +11,6 @@ public class Linia36PiataTractorulTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_piatatractorul_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_tur_PiataTractorul.pdf").load();
+        pdfView.fromAsset("linia_36_Independentei_Livada_Postei_Piata_Tractorul.pdf").load();
     }
 }

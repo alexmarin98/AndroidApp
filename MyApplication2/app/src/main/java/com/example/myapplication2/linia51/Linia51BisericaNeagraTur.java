@@ -11,6 +11,6 @@ public class Linia51BisericaNeagraTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_bisericaneagra_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_tur_BisericaNeagra.pdf").load();
+        pdfView.fromAsset("linia_51_Gara_Brasov_Tocile_Biserica_Neagra.pdf").load();
     }
 }

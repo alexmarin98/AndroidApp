@@ -11,6 +11,6 @@ public class Linia36FagetRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_faget_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_retur_Faget.pdf").load();
+        pdfView.fromAsset("linia_36_Livada_Postei_Independentei_Faget.pdf").load();
     }
 }

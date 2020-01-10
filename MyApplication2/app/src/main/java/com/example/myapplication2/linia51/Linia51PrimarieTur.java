@@ -11,6 +11,6 @@ public class Linia51PrimarieTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_primarie_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_tur_Primarie.pdf").load();
+        pdfView.fromAsset("linia_51_Gara_Brasov_Tocile_Primarie.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia51FagetRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_faget_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_retur_Faget.pdf").load();
+        pdfView.fromAsset("linia_51_Tocile_Gara_Brasov_Faget.pdf").load();
     }
 }

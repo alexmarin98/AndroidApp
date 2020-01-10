@@ -11,6 +11,6 @@ public class Linia51TocileRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_tocile_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_retur_Tocile.pdf").load();
+        pdfView.fromAsset("linia_51_Tocile_Gara_Brasov_Tocile.pdf").load();
     }
 }

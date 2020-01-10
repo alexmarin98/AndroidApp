@@ -11,6 +11,6 @@ public class Linia36OnixRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_onix_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_retur_Onix.pdf").load();
+        pdfView.fromAsset("linia_36_Livada_Postei_Independentei_Onix.pdf").load();
     }
 }

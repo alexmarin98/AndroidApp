@@ -11,6 +11,6 @@ public class Linia36IndependenteiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_independentei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_retur_Independentei.pdf").load();
+        pdfView.fromAsset("linia_36_Independentei_Livada_Postei_Independentei.pdf").load();
     }
 }
