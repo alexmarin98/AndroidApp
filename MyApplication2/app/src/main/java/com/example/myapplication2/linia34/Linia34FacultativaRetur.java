@@ -11,6 +11,6 @@ public class Linia34FacultativaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_facultativa_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_retur_Facultativa.pdf").load();
+        pdfView.fromAsset("linia_34_Livada_Postei_Timis_Triaj_Facultativa.pdf").load();
     }
 }

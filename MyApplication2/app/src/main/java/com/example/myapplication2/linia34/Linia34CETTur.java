@@ -11,6 +11,6 @@ public class Linia34CETTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_cet_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_tur_CET.pdf").load();
+        pdfView.fromAsset("linia_34_Timis_Triaj_Livada_Postei_CET.pdf").load();
     }
 }

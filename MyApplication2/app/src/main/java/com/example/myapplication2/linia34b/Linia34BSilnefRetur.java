@@ -11,6 +11,6 @@ public class Linia34BSilnefRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_silnef_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_Silnef.pdf").load();
+        pdfView.fromAsset("linia_34b_Hidro_A_Triaj_Silnef.pdf").load();
     }
 }

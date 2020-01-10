@@ -11,6 +11,6 @@ public class Linia34BCernatuluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_cernatului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_Cernatului.pdf").load();
+        pdfView.fromAsset("linia_34b_Triaj_Hidro_A_Cernatului.pdf").load();
     }
 }

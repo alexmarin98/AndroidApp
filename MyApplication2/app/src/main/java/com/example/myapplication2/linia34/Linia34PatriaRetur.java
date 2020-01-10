@@ -11,6 +11,6 @@ public class Linia34PatriaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_patria_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_retur_Patria.pdf").load();
+        pdfView.fromAsset("linia_34_Livada_Postei_Timis_Triaj_Patria.pdf").load();
     }
 }

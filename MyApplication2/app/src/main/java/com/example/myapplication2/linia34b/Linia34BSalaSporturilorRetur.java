@@ -11,6 +11,6 @@ public class Linia34BSalaSporturilorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_salasporturilor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_SalaSporturilor.pdf").load();
+        pdfView.fromAsset("linia_34b_Triaj_Hidro_A_Sala_Sporturilor.pdf").load();
     }
 }

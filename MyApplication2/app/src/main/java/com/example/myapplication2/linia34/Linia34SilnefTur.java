@@ -11,6 +11,6 @@ public class Linia34SilnefTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_silnef_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_tur_Silnef.pdf").load();
+        pdfView.fromAsset("linia_34_Timis_Triaj_Livada_Postei_Silnef.pdf").load();
     }
 }

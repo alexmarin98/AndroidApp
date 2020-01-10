@@ -11,6 +11,6 @@ public class Linia34BBranduselorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_branduselor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_tur_Branduselor.pdf").load();
+        pdfView.fromAsset("linia_34b_Hidro_A_Triaj_Branduselor.pdf").load();
     }
 }

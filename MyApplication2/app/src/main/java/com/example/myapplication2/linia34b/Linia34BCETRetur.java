@@ -11,6 +11,6 @@ public class Linia34BCETRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_cet_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_CET.pdf").load();
+        pdfView.fromAsset("linia_34b_Triaj_Hidro_A_CET.pdf").load();
     }
 }
