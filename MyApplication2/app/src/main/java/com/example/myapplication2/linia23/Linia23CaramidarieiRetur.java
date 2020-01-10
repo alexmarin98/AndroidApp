@@ -11,6 +11,6 @@ public class Linia23CaramidarieiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_caramidariei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_retur_Caramidariei.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Caramidariei.pdf").load();
     }
 }

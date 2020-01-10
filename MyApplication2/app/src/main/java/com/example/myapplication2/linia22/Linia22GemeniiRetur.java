@@ -11,6 +11,6 @@ public class Linia22GemeniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_gemenii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_retur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_22_Saturn_Stadionul_Tineretului_Gemenii.pdf").load();
     }
 }

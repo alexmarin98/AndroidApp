@@ -11,6 +11,6 @@ public class Linia23ComplexulMareTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_complexulmare_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_ComplexulMare.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Complexul_Mare.pdf").load();
     }
 }

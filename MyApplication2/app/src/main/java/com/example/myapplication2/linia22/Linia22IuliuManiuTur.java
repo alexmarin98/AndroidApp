@@ -11,6 +11,6 @@ public class Linia22IuliuManiuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_iuliumaniu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_tur_IuliuManiu.pdf").load();
+        pdfView.fromAsset("linia_22_Stadionul_Tineretului_Saturn_Iuliu_Maniu.pdf").load();
     }
 }

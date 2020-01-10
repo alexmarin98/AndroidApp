@@ -11,6 +11,6 @@ public class Linia23BAcademiaHenriCoandaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_academiahenricoanda_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_tur_AcademiaHenriCoanda.pdf").load();
+        pdfView.fromAsset("linia_23b_Stad._Municipal_Triaj_Academia_Henri_Coanda.pdf").load();
     }
 }

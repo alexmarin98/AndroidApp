@@ -11,6 +11,6 @@ public class Linia22HidroATur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_hidroa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_tur_HidroA.pdf").load();
+        pdfView.fromAsset("linia_22_Stadionul_Tineretului_Saturn_Hidro_A.pdf").load();
     }
 }

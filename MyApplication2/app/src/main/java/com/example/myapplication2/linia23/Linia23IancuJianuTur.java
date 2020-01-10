@@ -11,6 +11,6 @@ public class Linia23IancuJianuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_iancujianu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_IancuJianu.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Iancu_Jianu.pdf").load();
     }
 }

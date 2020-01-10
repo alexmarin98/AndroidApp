@@ -11,6 +11,6 @@ public class Linia23BIancuJianuRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_iancujianu_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_retur_IancuJianu.pdf").load();
+        pdfView.fromAsset("linia_23b_Triaj_Stad._Municipal_Iancu_Jianu.pdf").load();
     }
 }

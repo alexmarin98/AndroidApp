@@ -11,6 +11,6 @@ public class Linia23GemeniiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_gemenii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Gemenii.pdf").load();
     }
 }

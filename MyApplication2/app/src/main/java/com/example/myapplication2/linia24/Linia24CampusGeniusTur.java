@@ -11,6 +11,6 @@ public class Linia24CampusGeniusTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia24_campusgenius_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia24_tur_CampusGenius.pdf").load();
+        pdfView.fromAsset("linia_24_(ICPC_2_Baciului_CL_1)Baciului_CL_Livada_Postei_Campus_Genius.pdf").load();
     }
 }

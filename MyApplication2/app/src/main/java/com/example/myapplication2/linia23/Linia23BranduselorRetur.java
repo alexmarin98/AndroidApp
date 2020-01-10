@@ -11,6 +11,6 @@ public class Linia23BranduselorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_branduselor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_retur_Branduselor.pdf").load();
+        pdfView.fromAsset("linia_23_Stad._Municipal_Saturn_Branduselor.pdf").load();
     }
 }

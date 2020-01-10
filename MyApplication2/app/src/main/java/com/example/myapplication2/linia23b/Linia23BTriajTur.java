@@ -11,6 +11,6 @@ public class Linia23BTriajTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_triaj_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_tur_Triaj.pdf").load();
+        pdfView.fromAsset("linia_23b_Triaj_Stad._Municipal_Triaj.pdf").load();
     }
 }

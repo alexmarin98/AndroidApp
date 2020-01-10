@@ -11,6 +11,6 @@ public class Linia22CameraDeComertRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_cameradecomert_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_retur_CameraDeComert.pdf").load();
+        pdfView.fromAsset("linia_22_Saturn_Stadionul_Tineretului_Camera_de_Comert.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia23CaprioaraTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_caprioara_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_Caprioara.pdf").load();
+        pdfView.fromAsset("linia_23_Stad._Municipal_Saturn_Caprioara.pdf").load();
     }
 }

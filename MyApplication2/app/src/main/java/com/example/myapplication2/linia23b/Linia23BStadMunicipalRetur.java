@@ -11,6 +11,6 @@ public class Linia23BStadMunicipalRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_stadmunicipal_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_retur_StadMunicipal.pdf").load();
+        pdfView.fromAsset("linia_23b_Stad._Municipal_Triaj_Stad._Municipal.pdf").load();
     }
 }

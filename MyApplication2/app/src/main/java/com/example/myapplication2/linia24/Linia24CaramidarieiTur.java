@@ -11,6 +11,6 @@ public class Linia24CaramidarieiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia24_caramidariei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia24_tur_Caramidariei.pdf").load();
+        pdfView.fromAsset("linia_24_(ICPC_2_Baciului_CL_1)Baciului_CL_Livada_Postei_Caramidariei.pdf").load();
     }
 }

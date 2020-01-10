@@ -11,6 +11,6 @@ public class Linia23ComplexBartolomeuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_complexbartolomeu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_ComplexBartolomeu.pdf").load();
+        pdfView.fromAsset("linia_23_Stad._Municipal_Saturn_Complex_Bartolomeu.pdf").load();
     }
 }

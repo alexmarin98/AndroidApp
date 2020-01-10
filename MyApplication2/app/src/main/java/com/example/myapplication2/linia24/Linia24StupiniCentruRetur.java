@@ -11,6 +11,6 @@ public class Linia24StupiniCentruRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia24_stupinicentru_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia24_retur_StupiniCentru.pdf").load();
+        pdfView.fromAsset("linia_24_Livada_Postei_Baciului_CL(Baciului_CL_1_ICPC_2)_Stupini_Centru.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia24LivadaPosteiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia24_livadapostei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia24_tur_LivadaPostei.pdf").load();
+        pdfView.fromAsset("linia_24_Livada_Postei_Baciului_CL(Baciului_CL_1_ICPC_2)_Livada_Postei.pdf").load();
     }
 }

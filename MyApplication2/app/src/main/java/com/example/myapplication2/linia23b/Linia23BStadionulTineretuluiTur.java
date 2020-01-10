@@ -11,6 +11,6 @@ public class Linia23BStadionulTineretuluiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_stadionultineretului_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_tur_StadionulTineretului.pdf").load();
+        pdfView.fromAsset("linia_23b_Stad._Municipal_Triaj_Stadionul_Tineretului.pdf").load();
     }
 }

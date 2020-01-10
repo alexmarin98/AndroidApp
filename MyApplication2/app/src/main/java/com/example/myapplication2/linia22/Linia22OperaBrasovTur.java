@@ -11,6 +11,6 @@ public class Linia22OperaBrasovTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_operabrasov_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_tur_OperaBrasov.pdf").load();
+        pdfView.fromAsset("linia_22_Saturn_Stadionul_Tineretului_Opera_Brasov.pdf").load();
     }
 }
