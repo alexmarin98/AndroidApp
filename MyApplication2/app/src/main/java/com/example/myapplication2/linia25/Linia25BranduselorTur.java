@@ -11,6 +11,6 @@ public class Linia25BranduselorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia25_branduselor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia25_tur_Branduselor.pdf").load();
+        pdfView.fromAsset("linia_25_(Roman_1)Gara_Brasov_Avantgarden_Branduselor.pdf").load();
     }
 }

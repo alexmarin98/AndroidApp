@@ -11,6 +11,6 @@ public class Linia25PanaitCernaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia25_panaitcerna_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia25_tur_PanaitCerna.pdf").load();
+        pdfView.fromAsset("linia_25_(Roman_1)Gara_Brasov_Avantgarden_Panait_Cerna.pdf").load();
     }
 }

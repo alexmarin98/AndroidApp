@@ -11,6 +11,6 @@ public class Linia25ComplexulMareTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia25_complexulmare_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia25_tur_ComplexulMare.pdf").load();
+        pdfView.fromAsset("linia_25_(Roman_1)Gara_Brasov_Avantgarden_Complexul_Mare.pdf").load();
     }
 }

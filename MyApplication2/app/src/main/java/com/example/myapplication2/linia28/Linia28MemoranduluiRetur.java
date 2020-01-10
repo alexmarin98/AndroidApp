@@ -11,6 +11,6 @@ public class Linia28MemoranduluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_memorandului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_retur_Memorandului.pdf").load();
+        pdfView.fromAsset("linia_28_(ICPC_2_IAR_Ghimbav_1)Fundaturii_cl_Livada_Postei_Memorandului.pdf").load();
     }
 }

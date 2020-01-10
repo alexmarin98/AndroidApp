@@ -11,6 +11,6 @@ public class Linia29Decembrie1918Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_decembrie1918_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_tur_Decembrie1918.pdf").load();
+        pdfView.fromAsset("linia_29_Bartolomeu_Nord_Gara_Brasov_1_Decembrie_1918.pdf").load();
     }
 }

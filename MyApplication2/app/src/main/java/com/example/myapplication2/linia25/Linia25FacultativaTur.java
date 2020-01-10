@@ -11,6 +11,6 @@ public class Linia25FacultativaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia25_facultativa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia25_tur_Facultativa.pdf").load();
+        pdfView.fromAsset("linia_25_(Roman_1)Gara_Brasov_Avantgarden_Facultativa.pdf").load();
     }
 }

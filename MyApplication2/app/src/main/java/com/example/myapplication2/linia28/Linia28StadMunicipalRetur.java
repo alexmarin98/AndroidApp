@@ -11,6 +11,6 @@ public class Linia28StadMunicipalRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_stadmunicipal_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_retur_StadMunicipal.pdf").load();
+        pdfView.fromAsset("linia_28_(ICPC_2_IAR_Ghimbav_1)Fundaturii_cl_Livada_Postei_Stad._Municipal.pdf").load();
     }
 }

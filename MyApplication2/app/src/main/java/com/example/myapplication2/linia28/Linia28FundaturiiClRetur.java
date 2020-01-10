@@ -11,6 +11,6 @@ public class Linia28FundaturiiClRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_fundaturiicl_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_retur_FundaturiiCl.pdf").load();
+        pdfView.fromAsset("linia_28_(ICPC_2_IAR_Ghimbav_1)Fundaturii_cl_Livada_Postei_Fundaturii_cl.pdf").load();
     }
 }

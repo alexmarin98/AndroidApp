@@ -11,6 +11,6 @@ public class Linia28AlbinelorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_albinelor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_tur_Albinelor.pdf").load();
+        pdfView.fromAsset("linia_28_Livada_Postei_Fundaturii_cl(IAR_Ghimbav_1_ICPC_2)_Albinelor.pdf").load();
     }
 }

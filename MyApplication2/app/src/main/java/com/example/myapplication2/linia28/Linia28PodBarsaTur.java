@@ -11,6 +11,6 @@ public class Linia28PodBarsaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_podbarsa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_tur_PodBarsa.pdf").load();
+        pdfView.fromAsset("linia_28_Livada_Postei_Fundaturii_cl(IAR_Ghimbav_1_ICPC_2)_Pod_Barsa.pdf").load();
     }
 }

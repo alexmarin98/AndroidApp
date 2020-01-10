@@ -11,6 +11,6 @@ public class Linia25VlahutaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia25_vlahuta_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia25_retur_Vlahuta.pdf").load();
+        pdfView.fromAsset("linia_25_Avantgarden_Gara_Brasov(Roman_1)_Vlahuta.pdf").load();
     }
 }

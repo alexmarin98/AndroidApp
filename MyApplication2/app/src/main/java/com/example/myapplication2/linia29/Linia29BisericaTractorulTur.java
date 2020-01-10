@@ -11,6 +11,6 @@ public class Linia29BisericaTractorulTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_bisericatractorul_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_tur_BisericaTractorul.pdf").load();
+        pdfView.fromAsset("linia_29_Bartolomeu_Nord_Gara_Brasov_Biserica_Tractorul.pdf").load();
     }
 }
