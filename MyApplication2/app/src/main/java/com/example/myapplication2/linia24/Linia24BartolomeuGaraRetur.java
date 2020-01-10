@@ -11,6 +11,6 @@ public class Linia24BartolomeuGaraRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia24_bartolomeugara_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia24_retur_BartolomeuGara.pdf").load();
+        pdfView.fromAsset("linia_24_Livada_Postei_Baciului_CL(Baciului_CL_1_ICPC_2)_Bartolomeu_Gara.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia23FagetTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_faget_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_Faget.pdf").load();
+        pdfView.fromAsset("linia_23_Stad._Municipal_Saturn_Faget.pdf").load();
     }
 }

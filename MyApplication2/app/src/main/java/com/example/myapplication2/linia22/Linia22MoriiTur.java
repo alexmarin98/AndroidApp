@@ -11,6 +11,6 @@ public class Linia22MoriiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_morii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_tur_Morii.pdf").load();
+        pdfView.fromAsset("linia_22_Saturn_Stadionul_Tineretului_Morii.pdf").load();
     }
 }

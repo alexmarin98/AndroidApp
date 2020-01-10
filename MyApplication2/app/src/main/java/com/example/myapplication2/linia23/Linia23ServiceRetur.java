@@ -11,6 +11,6 @@ public class Linia23ServiceRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_service_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_retur_Service.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Service.pdf").load();
     }
 }

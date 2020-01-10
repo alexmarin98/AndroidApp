@@ -11,6 +11,6 @@ public class Linia23BVlahutaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_vlahuta_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_tur_Vlahuta.pdf").load();
+        pdfView.fromAsset("linia_23b_Stad._Municipal_Triaj_Vlahuta.pdf").load();
     }
 }

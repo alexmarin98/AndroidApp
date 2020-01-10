@@ -11,6 +11,6 @@ public class Linia22CometeiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_cometei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_retur_Cometei.pdf").load();
+        pdfView.fromAsset("linia_22_Stadionul_Tineretului_Saturn_Cometei.pdf").load();
     }
 }

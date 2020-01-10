@@ -11,6 +11,6 @@ public class Linia23BartolomeuGaraRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_bartolomeugara_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_retur_BartolomeuGara.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Bartolomeu_Gara.pdf").load();
     }
 }

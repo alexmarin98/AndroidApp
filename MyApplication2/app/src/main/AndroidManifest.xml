@@ -358,6 +358,8 @@
         <activity android:name=".linia21.Linia21ScGen9Retur" />
         <activity android:name=".linia21.Linia21FacultativaRetur" />
         <activity android:name=".linia21.Linia21NouaRetur" />
+        <activity android:name=".linia22.Linia22Autogara2Retur"/>
+        <activity android:name=".linia22.Linia22TurRetur"/>
         <activity android:name=".linia10.Linia10TurRetur" />
         <activity android:name=".linia10.Linia10Tur" />
         <activity android:name=".linia10.Linia10Retur" />
@@ -521,7 +523,9 @@
         <activity android:name=".linia19.Linia19PoienelorRetur" />
         <activity android:name=".linia19.Linia19PrunuluiRetur" />
         <activity android:name=".linia19.Linia19NouaRetur" />
-        <activity android:name=".linia22.Linia22TurRetur" />
+        <activity android:name=".linia23.Linia23TurRetur" />
+        <activity android:name=".linia23.Linia23Tur" />
+        <activity android:name=".linia23.Linia23Retur" />
         <activity android:name=".linia22.Linia22Tur" />
         <activity android:name=".linia22.Linia22Retur" />
         <activity android:name=".linia22.Linia22StadionulTineretuluiTur" />

@@ -11,6 +11,6 @@ public class Linia23FartecTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_fartec_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_tur_Fartec.pdf").load();
+        pdfView.fromAsset("linia_23_Stad._Municipal_Saturn_Fartec.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia23BAutogara3Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23b_autogara3_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23b_tur_Autogara3.pdf").load();
+        pdfView.fromAsset("linia_23b_Stad._Municipal_Triaj_Autogara_3.pdf").load();
     }
 }

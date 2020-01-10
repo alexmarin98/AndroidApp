@@ -11,6 +11,6 @@ public class Linia22Autogara2Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia22_autogara2_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia22_tur_Autogara2.pdf").load();
+        pdfView.fromAsset("linia_22_Saturn_Stadionul_Tineretului_Autogara_2.pdf").load();
     }
 }

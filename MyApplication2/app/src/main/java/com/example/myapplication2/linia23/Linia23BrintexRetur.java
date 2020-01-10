@@ -11,6 +11,6 @@ public class Linia23BrintexRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia23_brintex_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia23_retur_Brintex.pdf").load();
+        pdfView.fromAsset("linia_23_Saturn_Stad._Municipal_Brintex.pdf").load();
     }
 }
