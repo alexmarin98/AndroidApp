@@ -11,6 +11,6 @@ public class Linia29BartolomeuNordRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_bartolomeunord_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_retur_BartolomeuNord.pdf").load();
+        pdfView.fromAsset("linia_29_Bartolomeu_Nord_Gara_Brasov_Bartolomeu_Nord.pdf").load();
     }
 }

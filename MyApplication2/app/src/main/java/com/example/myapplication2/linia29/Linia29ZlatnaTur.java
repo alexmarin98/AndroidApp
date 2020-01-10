@@ -11,6 +11,6 @@ public class Linia29ZlatnaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_zlatna_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_tur_Zlatna.pdf").load();
+        pdfView.fromAsset("linia_29_Bartolomeu_Nord_Gara_Brasov_Zlatna.pdf").load();
     }
 }

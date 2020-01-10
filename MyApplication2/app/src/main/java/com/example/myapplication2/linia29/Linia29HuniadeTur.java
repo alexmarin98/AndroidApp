@@ -11,6 +11,6 @@ public class Linia29HuniadeTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_huniade_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_tur_Huniade.pdf").load();
+        pdfView.fromAsset("linia_29_Bartolomeu_Nord_Gara_Brasov_Huniade.pdf").load();
     }
 }

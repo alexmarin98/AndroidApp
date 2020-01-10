@@ -11,6 +11,6 @@ public class Linia28CaseRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_case_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_retur_Case.pdf").load();
+        pdfView.fromAsset("linia_28_(ICPC_2_IAR_Ghimbav_1)Fundaturii_cl_Livada_Postei_Case.pdf").load();
     }
 }

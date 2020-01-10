@@ -11,6 +11,6 @@ public class Linia29SpitalTractorulRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_spitaltractorul_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_retur_SpitalTractorul.pdf").load();
+        pdfView.fromAsset("linia_29_Gara_Brasov_Bartolomeu_Nord_Spital_Tractorul.pdf").load();
     }
 }

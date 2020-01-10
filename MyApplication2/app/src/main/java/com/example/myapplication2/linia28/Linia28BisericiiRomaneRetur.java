@@ -11,6 +11,6 @@ public class Linia28BisericiiRomaneRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia28_bisericiiromane_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia28_retur_BisericiiRomane.pdf").load();
+        pdfView.fromAsset("linia_28_(ICPC_2_IAR_Ghimbav_1)Fundaturii_cl_Livada_Postei_Bisericii_Romane.pdf").load();
     }
 }

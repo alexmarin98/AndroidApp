@@ -11,6 +11,6 @@ public class Linia29EcTeodoroiuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia29_ecteodoroiu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia29_tur_EcTeodoroiu.pdf").load();
+        pdfView.fromAsset("linia_29_Bartolomeu_Nord_Gara_Brasov_Ec._Teodoroiu.pdf").load();
     }
 }

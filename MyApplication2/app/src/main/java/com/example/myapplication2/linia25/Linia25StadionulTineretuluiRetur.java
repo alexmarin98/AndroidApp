@@ -11,6 +11,6 @@ public class Linia25StadionulTineretuluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia25_stadionultineretului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia25_retur_StadionulTineretului.pdf").load();
+        pdfView.fromAsset("linia_25_Avantgarden_Gara_Brasov(Roman_1)_Stadionul_Tineretului.pdf").load();
     }
 }
