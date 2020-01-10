@@ -11,6 +11,6 @@ public class Linia31ScGen20Retur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia31_scgen20_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia31_retur_ScGen20.pdf").load();
+        pdfView.fromAsset("linia_31_Valea_Cetatii_Livada_Postei_Sc._Gen._20.pdf").load();
     }
 }

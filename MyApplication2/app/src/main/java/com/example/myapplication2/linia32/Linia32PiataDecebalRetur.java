@@ -11,6 +11,6 @@ public class Linia32PiataDecebalRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia32_piatadecebal_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia32_retur_PiataDecebal.pdf").load();
+        pdfView.fromAsset("linia_32_Valea_Cetatii_Gara_Brasov_Piata_Decebal.pdf").load();
     }
 }

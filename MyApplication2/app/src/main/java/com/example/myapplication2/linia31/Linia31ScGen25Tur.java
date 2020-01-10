@@ -11,6 +11,6 @@ public class Linia31ScGen25Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia31_scgen25_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia31_tur_ScGen25.pdf").load();
+        pdfView.fromAsset("linia_31_Livada_Postei_Valea_Cetatii_Sc._Gen._25.pdf").load();
     }
 }

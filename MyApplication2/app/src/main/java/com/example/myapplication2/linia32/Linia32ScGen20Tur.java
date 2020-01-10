@@ -11,6 +11,6 @@ public class Linia32ScGen20Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia32_scgen20_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia32_tur_ScGen20.pdf").load();
+        pdfView.fromAsset("linia_32_Gara_Brasov_Valea_Cetatii_Sc._Gen._20.pdf").load();
     }
 }

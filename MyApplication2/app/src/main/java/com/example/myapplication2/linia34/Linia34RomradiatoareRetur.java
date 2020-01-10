@@ -11,6 +11,6 @@ public class Linia34RomradiatoareRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_romradiatoare_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_retur_Romradiatoare.pdf").load();
+        pdfView.fromAsset("linia_34_Livada_Postei_Timis_Triaj_Romradiatoare.pdf").load();
     }
 }

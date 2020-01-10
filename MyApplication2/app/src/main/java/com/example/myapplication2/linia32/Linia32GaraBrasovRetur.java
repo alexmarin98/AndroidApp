@@ -11,6 +11,6 @@ public class Linia32GaraBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia32_garabrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia32_retur_GaraBrasov.pdf").load();
+        pdfView.fromAsset("linia_32_Gara_Brasov_Valea_Cetatii_Gara_Brasov.pdf").load();
     }
 }

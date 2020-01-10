@@ -11,6 +11,6 @@ public class Linia34BBranduselorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_branduselor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_Branduselor.pdf").load();
+        pdfView.fromAsset("linia_34b_Triaj_Hidro_A_Branduselor.pdf").load();
     }
 }

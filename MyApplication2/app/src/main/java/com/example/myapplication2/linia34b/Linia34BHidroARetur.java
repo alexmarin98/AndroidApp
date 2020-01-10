@@ -11,6 +11,6 @@ public class Linia34BHidroARetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_hidroa_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_HidroA.pdf").load();
+        pdfView.fromAsset("linia_34b_Hidro_A_Triaj_Hidro_A.pdf").load();
     }
 }

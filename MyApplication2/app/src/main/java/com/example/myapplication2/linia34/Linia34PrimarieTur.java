@@ -11,6 +11,6 @@ public class Linia34PrimarieTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_primarie_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_tur_Primarie.pdf").load();
+        pdfView.fromAsset("linia_34_Timis_Triaj_Livada_Postei_Primarie.pdf").load();
     }
 }

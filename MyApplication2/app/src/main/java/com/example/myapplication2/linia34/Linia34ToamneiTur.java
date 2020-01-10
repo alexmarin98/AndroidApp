@@ -11,6 +11,6 @@ public class Linia34ToamneiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34_toamnei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34_tur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia_34_Timis_Triaj_Livada_Postei_Toamnei.pdf").load();
     }
 }

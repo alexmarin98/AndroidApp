@@ -11,6 +11,6 @@ public class Linia31LiceulMesotaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia31_liceulmesota_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia31_retur_LiceulMesota.pdf").load();
+        pdfView.fromAsset("linia_31_Valea_Cetatii_Livada_Postei_Liceul_Mesota.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia34BPapaRealeTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_papareale_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_tur_PapaReale.pdf").load();
+        pdfView.fromAsset("linia_34b_Hidro_A_Triaj_Papa_Reale.pdf").load();
     }
 }

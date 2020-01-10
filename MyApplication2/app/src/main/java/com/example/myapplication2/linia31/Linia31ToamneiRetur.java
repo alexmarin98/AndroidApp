@@ -11,6 +11,6 @@ public class Linia31ToamneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia31_toamnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia31_retur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia_31_Valea_Cetatii_Livada_Postei_Toamnei.pdf").load();
     }
 }

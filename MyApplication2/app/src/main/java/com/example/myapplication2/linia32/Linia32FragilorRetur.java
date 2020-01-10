@@ -11,6 +11,6 @@ public class Linia32FragilorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia32_fragilor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia32_retur_Fragilor.pdf").load();
+        pdfView.fromAsset("linia_32_Valea_Cetatii_Gara_Brasov_Fragilor.pdf").load();
     }
 }

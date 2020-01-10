@@ -11,6 +11,6 @@ public class Linia34BCarfilRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_carfil_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_retur_Carfil.pdf").load();
+        pdfView.fromAsset("linia_34b_Triaj_Hidro_A_Carfil.pdf").load();
     }
 }

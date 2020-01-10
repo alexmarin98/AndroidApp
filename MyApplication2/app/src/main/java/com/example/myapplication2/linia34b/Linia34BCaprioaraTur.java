@@ -11,6 +11,6 @@ public class Linia34BCaprioaraTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia34b_caprioara_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia34b_tur_Caprioara.pdf").load();
+        pdfView.fromAsset("linia_34b_Hidro_A_Triaj_Caprioara.pdf").load();
     }
 }

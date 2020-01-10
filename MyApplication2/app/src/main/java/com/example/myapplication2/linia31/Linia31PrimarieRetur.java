@@ -11,6 +11,6 @@ public class Linia31PrimarieRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia31_primarie_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia31_retur_Primarie.pdf").load();
+        pdfView.fromAsset("linia_31_Valea_Cetatii_Livada_Postei_Primarie.pdf").load();
     }
 }

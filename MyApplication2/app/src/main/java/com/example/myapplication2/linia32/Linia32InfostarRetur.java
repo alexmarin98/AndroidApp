@@ -11,6 +11,6 @@ public class Linia32InfostarRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia32_infostar_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia32_retur_Infostar.pdf").load();
+        pdfView.fromAsset("linia_32_Valea_Cetatii_Gara_Brasov_Infostar.pdf").load();
     }
 }
