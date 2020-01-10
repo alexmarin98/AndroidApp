@@ -11,6 +11,6 @@ public class Linia51MirceaCelBatranRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_mirceacelbatran_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_retur_MirceaCelBatran.pdf").load();
+        pdfView.fromAsset("linia_51_Tocile_Gara_Brasov_Mircea_cel_Batran.pdf").load();
     }
 }

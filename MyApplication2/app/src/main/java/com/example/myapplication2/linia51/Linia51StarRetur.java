@@ -11,6 +11,6 @@ public class Linia51StarRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_star_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_retur_Star.pdf").load();
+        pdfView.fromAsset("linia_51_Tocile_Gara_Brasov_Star.pdf").load();
     }
 }

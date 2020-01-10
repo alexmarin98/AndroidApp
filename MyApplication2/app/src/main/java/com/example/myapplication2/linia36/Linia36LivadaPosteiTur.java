@@ -11,6 +11,6 @@ public class Linia36LivadaPosteiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia36_livadapostei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia36_tur_LivadaPostei.pdf").load();
+        pdfView.fromAsset("linia_36_Livada_Postei_Independentei_Livada_Postei.pdf").load();
     }
 }

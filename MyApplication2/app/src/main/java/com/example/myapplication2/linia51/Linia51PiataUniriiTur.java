@@ -11,6 +11,6 @@ public class Linia51PiataUniriiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_piataunirii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_tur_PiataUnirii.pdf").load();
+        pdfView.fromAsset("linia_51_Gara_Brasov_Tocile_Piata_Unirii.pdf").load();
     }
 }

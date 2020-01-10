@@ -11,6 +11,6 @@ public class Linia51GaraBrasovTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_garabrasov_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_tur_GaraBrasov.pdf").load();
+        pdfView.fromAsset("linia_51_Gara_Brasov_Tocile_Gara_Brasov.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia51OnixTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia51_onix_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia51_tur_Onix.pdf").load();
+        pdfView.fromAsset("linia_51_Gara_Brasov_Tocile_Onix.pdf").load();
     }
 }
