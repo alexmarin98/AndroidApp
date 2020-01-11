@@ -11,6 +11,6 @@ public class Linia33MetromRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia33_metrom_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia33_retur_Metrom.pdf").load();
+        pdfView.fromAsset("linia33/linia_METROM_I_Valea_Cetatii_Roman_Metrom.pdf").load();
     }
 }

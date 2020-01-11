@@ -11,6 +11,6 @@ public class Linia33BisericaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia33_biserica_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia33_retur_Biserica.pdf").load();
+        pdfView.fromAsset("linia33/linia_BISERICA_Valea_Cetatii_Roman_Biserica.pdf").load();
     }
 }

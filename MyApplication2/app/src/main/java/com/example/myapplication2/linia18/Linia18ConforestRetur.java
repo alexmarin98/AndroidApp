@@ -11,6 +11,6 @@ public class Linia18ConforestRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_conforest_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_retur_Conforest.pdf").load();
+        pdfView.fromAsset("linia18/linia_CONFOREST_D_(IAR_Ghimbav_1)Fundaturii_cl_Bariera_Bartolomeu_Conforest.pdf").load();
     }
 }

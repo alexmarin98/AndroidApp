@@ -11,6 +11,6 @@ public class Linia33PoienelorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia33_poienelor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia33_tur_Poienelor.pdf").load();
+        pdfView.fromAsset("linia33/linia_POIENELOR_D_Roman_Valea_Cetatii_Poienelor.pdf").load();
     }
 }

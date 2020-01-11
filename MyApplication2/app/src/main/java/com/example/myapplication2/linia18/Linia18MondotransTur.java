@@ -11,6 +11,6 @@ public class Linia18MondotransTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_mondotrans_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_Mondotrans.pdf").load();
+        pdfView.fromAsset("linia18/linia_MONDOTRANS_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Mondotrans.pdf").load();
     }
 }

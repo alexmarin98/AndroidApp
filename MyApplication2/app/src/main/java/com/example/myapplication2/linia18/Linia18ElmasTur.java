@@ -11,6 +11,6 @@ public class Linia18ElmasTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_elmas_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_Elmas.pdf").load();
+        pdfView.fromAsset("linia18/linia_ELMAS_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Elmas.pdf").load();
     }
 }

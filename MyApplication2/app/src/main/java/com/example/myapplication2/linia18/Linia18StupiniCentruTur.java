@@ -11,6 +11,6 @@ public class Linia18StupiniCentruTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_stupinicentru_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_StupiniCentru.pdf").load();
+        pdfView.fromAsset("linia18/linia_STUPINI_CENTRU_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Stupini_Centru.pdf").load();
     }
 }

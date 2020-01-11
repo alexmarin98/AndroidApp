@@ -11,6 +11,6 @@ public class Linia18TipografiaBrastarTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_tipografiabrastar_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_TipografiaBrastar.pdf").load();
+        pdfView.fromAsset("linia18/linia_TIPOGRAFIA_BRAS_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Tipografia_Brastar.pdf").load();
     }
 }

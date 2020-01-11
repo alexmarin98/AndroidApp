@@ -11,6 +11,6 @@ public class Linia18GhDojaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_ghdoja_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_retur_GhDoja.pdf").load();
+        pdfView.fromAsset("linia18/linia_GHEORGHE_DOJA_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Gh._Doja.pdf").load();
     }
 }

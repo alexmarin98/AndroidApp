@@ -11,6 +11,6 @@ public class Linia18FaguruluiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_fagurului_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_Fagurului.pdf").load();
+        pdfView.fromAsset("linia18/linia_FAGURULUI_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Fagurului.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia18PiataAgroalimentaraTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_piataagroalimentara_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_PiataAgroalimentara.pdf").load();
+        pdfView.fromAsset("linia18/linia_PIATA_AGRO_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Piata_Agroalimentara.pdf").load();
     }
 }

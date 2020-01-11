@@ -11,6 +11,6 @@ public class Linia18FacultativaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_facultativa_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_Facultativa.pdf").load();
+        pdfView.fromAsset("linia18/linia_FACULTATIVA_18_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Facultativa.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia33PoienelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia33_poienelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia33_retur_Poienelor.pdf").load();
+        pdfView.fromAsset("linia33/linia_POIENELOR_I_Valea_Cetatii_Roman_Poienelor.pdf").load();
     }
 }

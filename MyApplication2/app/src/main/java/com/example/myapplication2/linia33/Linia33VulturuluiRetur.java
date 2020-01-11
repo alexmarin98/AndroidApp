@@ -11,6 +11,6 @@ public class Linia33VulturuluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia33_vulturului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia33_retur_Vulturului.pdf").load();
+        pdfView.fromAsset("linia33/linia_VULTURUL_I_Valea_Cetatii_Roman_Vulturului.pdf").load();
     }
 }
