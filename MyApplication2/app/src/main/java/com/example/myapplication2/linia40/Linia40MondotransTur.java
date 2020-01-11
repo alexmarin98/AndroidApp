@@ -11,6 +11,6 @@ public class Linia40MondotransTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_mondotrans_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_tur_Mondotrans.pdf").load();
+        pdfView.fromAsset("linia_40_Gara_Brasov_Stupini_Izvorului_Mondotrans.pdf").load();
     }
 }

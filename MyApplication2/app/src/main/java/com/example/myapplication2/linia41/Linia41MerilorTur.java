@@ -11,6 +11,6 @@ public class Linia41MerilorTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_merilor_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_tur_Merilor.pdf").load();
+        pdfView.fromAsset("linia_41_Lujerului_Livada_Postei_Merilor.pdf").load();
     }
 }

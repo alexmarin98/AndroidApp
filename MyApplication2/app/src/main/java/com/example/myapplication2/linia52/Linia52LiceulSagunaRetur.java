@@ -11,6 +11,6 @@ public class Linia52LiceulSagunaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_liceulsaguna_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_retur_LiceulSaguna.pdf").load();
+        pdfView.fromAsset("linia_52_Tocile_Roman(Panselelor_1)_Liceul_Saguna.pdf").load();
     }
 }

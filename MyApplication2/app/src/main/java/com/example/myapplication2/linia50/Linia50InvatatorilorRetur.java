@@ -11,6 +11,6 @@ public class Linia50InvatatorilorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia50_invatatorilor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia50_retur_Invatatorilor.pdf").load();
+        pdfView.fromAsset("linia_50_Livada_Postei_Podul_Cretului(Solomon_1)_Invatatorilor.pdf").load();
     }
 }

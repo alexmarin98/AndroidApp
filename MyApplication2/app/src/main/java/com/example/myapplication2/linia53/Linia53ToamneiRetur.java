@@ -11,6 +11,6 @@ public class Linia53ToamneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_toamnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia53_TOAMNEI_Panselelor_Facultate_Constructii_Toamnei (1).pdf").load();
     }
 }

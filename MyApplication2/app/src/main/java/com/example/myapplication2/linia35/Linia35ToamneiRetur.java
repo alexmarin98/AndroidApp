@@ -11,6 +11,6 @@ public class Linia35ToamneiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_toamnei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_retur_Toamnei.pdf").load();
+        pdfView.fromAsset("linia_35_Noua_Gara_Brasov_Toamnei.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia35StrandNouaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_strandnoua_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_retur_StrandNoua.pdf").load();
+        pdfView.fromAsset("linia_35_Noua_Gara_Brasov_Strand_Noua.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia50SanitasTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia50_sanitas_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia50_tur_Sanitas.pdf").load();
+        pdfView.fromAsset("linia_50_(Solomon_1)Podul_Cretului_Livada_Postei_Sanitas.pdf").load();
     }
 }

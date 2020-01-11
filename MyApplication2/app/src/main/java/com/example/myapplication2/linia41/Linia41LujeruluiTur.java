@@ -11,6 +11,6 @@ public class Linia41LujeruluiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_lujerului_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_tur_Lujerului.pdf").load();
+        pdfView.fromAsset("linia_41_Lujerului_Livada_Postei_Lujerului.pdf").load();
     }
 }

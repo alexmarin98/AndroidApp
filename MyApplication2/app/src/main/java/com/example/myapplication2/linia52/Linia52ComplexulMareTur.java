@@ -11,6 +11,6 @@ public class Linia52ComplexulMareTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_complexulmare_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_tur_ComplexulMare.pdf").load();
+        pdfView.fromAsset("linia_52_(Panselelor_1)Roman_Tocile_Complexul_Mare.pdf").load();
     }
 }

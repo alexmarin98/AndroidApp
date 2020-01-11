@@ -11,6 +11,6 @@ public class Linia41MoriiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_morii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_tur_Morii.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Morii.pdf").load();
     }
 }

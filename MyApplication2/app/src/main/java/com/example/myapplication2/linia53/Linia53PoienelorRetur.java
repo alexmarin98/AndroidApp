@@ -11,6 +11,6 @@ public class Linia53PoienelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_poienelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Poienelor.pdf").load();
+        pdfView.fromAsset("linia53_POIENELOR_I_Panselelor_Facultate_Constructii_Poienelor (1).pdf").load();
     }
 }

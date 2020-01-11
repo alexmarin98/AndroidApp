@@ -11,6 +11,6 @@ public class Linia40PiataAgroalimentaraTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_piataagroalimentara_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_tur_PiataAgroalimentara.pdf").load();
+        pdfView.fromAsset("linia_40_Gara_Brasov_Stupini_Izvorului_Piata_Agroalimentara.pdf").load();
     }
 }

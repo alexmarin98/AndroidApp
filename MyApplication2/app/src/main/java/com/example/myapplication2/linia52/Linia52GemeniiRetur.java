@@ -11,6 +11,6 @@ public class Linia52GemeniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_gemenii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_retur_Gemenii.pdf").load();
+        pdfView.fromAsset("linia_52_Tocile_Roman(Panselelor_1)_Gemenii.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia50FacultativaIIRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia50_facultativaii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia50_retur_FacultativaII.pdf").load();
+        pdfView.fromAsset("linia_50_Livada_Postei_Podul_Cretului(Solomon_1)_Facultativa_II.pdf").load();
     }
 }

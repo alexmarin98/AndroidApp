@@ -11,6 +11,6 @@ public class Linia41RialTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_rial_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_tur_Rial.pdf").load();
+        pdfView.fromAsset("linia_41_Lujerului_Livada_Postei_Rial.pdf").load();
     }
 }

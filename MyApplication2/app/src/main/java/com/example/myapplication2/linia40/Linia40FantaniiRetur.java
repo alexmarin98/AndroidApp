@@ -11,6 +11,6 @@ public class Linia40FantaniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_fantanii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_retur_Fantanii.pdf").load();
+        pdfView.fromAsset("linia_40_Stupini_Izvorului_Gara_Brasov_Fantanii.pdf").load();
     }
 }

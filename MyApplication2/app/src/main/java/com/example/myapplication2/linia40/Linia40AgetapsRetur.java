@@ -11,6 +11,6 @@ public class Linia40AgetapsRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_agetaps_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_retur_Agetaps.pdf").load();
+        pdfView.fromAsset("linia_40_Stupini_Izvorului_Gara_Brasov_Agetaps.pdf").load();
     }
 }

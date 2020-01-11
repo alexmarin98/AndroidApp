@@ -11,6 +11,6 @@ public class Linia41StupiniIzvoruluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_stupiniizvorului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_StupiniIzvorului.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Stupini_Izvorului.pdf").load();
     }
 }

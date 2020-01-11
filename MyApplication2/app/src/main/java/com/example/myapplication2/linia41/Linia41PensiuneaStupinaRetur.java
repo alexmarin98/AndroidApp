@@ -11,6 +11,6 @@ public class Linia41PensiuneaStupinaRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_pensiuneastupina_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_PensiuneaStupina.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Pensiunea_Stupina.pdf").load();
     }
 }

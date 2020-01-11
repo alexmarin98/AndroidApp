@@ -11,6 +11,6 @@ public class Linia53PompieriTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_pompieri_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_tur_Pompieri.pdf").load();
+        pdfView.fromAsset("linia53_BERZEI_2_Facultate_Constructii_Panselelor_Pompieri (1).pdf").load();
     }
 }

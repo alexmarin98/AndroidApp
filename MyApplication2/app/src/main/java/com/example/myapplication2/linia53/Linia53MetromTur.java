@@ -11,6 +11,6 @@ public class Linia53MetromTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_metrom_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_tur_Metrom.pdf").load();
+        pdfView.fromAsset("linia53_METROM_I_Facultate_Constructii_Panselelor_Metrom (1).pdf").load();
     }
 }

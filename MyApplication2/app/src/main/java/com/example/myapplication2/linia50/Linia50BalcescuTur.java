@@ -11,6 +11,6 @@ public class Linia50BalcescuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia50_balcescu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia50_tur_Balcescu.pdf").load();
+        pdfView.fromAsset("linia_50_(Solomon_1)Podul_Cretului_Livada_Postei_Balcescu.pdf").load();
     }
 }

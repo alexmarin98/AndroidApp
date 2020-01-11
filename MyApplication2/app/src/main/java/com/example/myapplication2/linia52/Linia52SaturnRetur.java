@@ -11,6 +11,6 @@ public class Linia52SaturnRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_saturn_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_retur_Saturn.pdf").load();
+        pdfView.fromAsset("linia_52_Tocile_Roman(Panselelor_1)_Saturn.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia52SanitasTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_sanitas_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_tur_Sanitas.pdf").load();
+        pdfView.fromAsset("linia_52_(Panselelor_1)Roman_Tocile_Sanitas.pdf").load();
     }
 }

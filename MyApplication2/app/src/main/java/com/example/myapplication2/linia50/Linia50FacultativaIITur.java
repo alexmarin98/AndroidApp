@@ -11,6 +11,6 @@ public class Linia50FacultativaIITur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia50_facultativaii_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia50_tur_FacultativaII.pdf").load();
+        pdfView.fromAsset("linia_50_(Solomon_1)Podul_Cretului_Livada_Postei_Facultativa_II.pdf").load();
     }
 }

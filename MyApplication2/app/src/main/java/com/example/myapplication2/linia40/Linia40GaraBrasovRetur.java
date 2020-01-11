@@ -11,6 +11,6 @@ public class Linia40GaraBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_garabrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_retur_GaraBrasov.pdf").load();
+        pdfView.fromAsset("linia_40_Gara_Brasov_Stupini_Izvorului_Gara_Brasov.pdf").load();
     }
 }

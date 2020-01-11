@@ -11,6 +11,6 @@ public class Linia52PanselelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_panselelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_retur_Panselelor.pdf").load();
+        pdfView.fromAsset("linia_52_(Panselelor_1)Roman_Tocile_Panselelor.pdf").load();
     }
 }

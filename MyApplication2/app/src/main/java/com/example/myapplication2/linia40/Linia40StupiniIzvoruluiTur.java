@@ -11,6 +11,6 @@ public class Linia40StupiniIzvoruluiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_stupiniizvorului_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_tur_StupiniIzvorului.pdf").load();
+        pdfView.fromAsset("linia_40_Stupini_Izvorului_Gara_Brasov_Stupini_Izvorului.pdf").load();
     }
 }

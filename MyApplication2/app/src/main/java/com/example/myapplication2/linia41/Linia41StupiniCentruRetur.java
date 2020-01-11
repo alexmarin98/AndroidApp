@@ -11,6 +11,6 @@ public class Linia41StupiniCentruRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_stupinicentru_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_StupiniCentru.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Stupini_Centru.pdf").load();
     }
 }
