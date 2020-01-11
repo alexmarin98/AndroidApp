@@ -117,7 +117,6 @@
         <activity android:name=".linia5.Linia5PoienelorTur" />
         <activity android:name=".linia5.Linia5PompieriTur" />
         <activity android:name=".linia5.Linia5primarieRetur" />
-        <activity android:name=".linia5.Linia5Retur" />
         <activity android:name=".linia5.Linia5RomanTur" />
         <activity android:name=".linia5.Linia5SanitasRetur" />
         <activity android:name=".linia5.Linia5SoareluiRetur" />
@@ -556,11 +555,7 @@
         <activity android:name=".linia22.Linia22SpitalMarzescuRetur" />
         <activity android:name=".linia22.Linia22OperaBrasovRetur" />
         <activity android:name=".linia22.Linia22MoriiRetur" />
-        <activity android:name=".linia22.Linia22Autogara2Retur" />
         <activity android:name=".linia22.Linia22StadionulTineretuluiRetur" />
-        <activity android:name=".linia23.Linia23TurRetur" />
-        <activity android:name=".linia23.Linia23Tur" />
-        <activity android:name=".linia23.Linia23Retur" />
         <activity android:name=".linia23.Linia23StadMunicipalTur" />
         <activity android:name=".linia23.Linia23ComplexBartolomeuTur" />
         <activity android:name=".linia23.Linia23StadionulTineretuluiTur" />

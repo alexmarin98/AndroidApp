@@ -35,25 +35,25 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PavilioaneleCFR" />
+                android:text="Pavilioanele CFR" />
             <Button
                 android:id="@+id/autogara3Retur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Autogara3" />
+                android:text="Autogara 3" />
             <Button
                 android:id="@+id/salasporturilorRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="SalaSporturilor" />
+                android:text="Sala Sporturilor" />
             <Button
                 android:id="@+id/garabrasovRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="GaraBrasov" />
+                android:text="Gara Brasov" />
             <Button
                 android:id="@+id/daciaRetur"
                 android:layout_width="match_parent"
@@ -71,13 +71,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulMesota" />
+                android:text="Liceul Mesota" />
             <Button
                 android:id="@+id/hidroaRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="HidroA" />
+                android:text="Hidro A" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

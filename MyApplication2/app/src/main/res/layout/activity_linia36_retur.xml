@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
             <Button
                 android:id="@+id/dramaticRetur"
                 android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="MirceaCelBatran" />
+                android:text="Mircea Cel Batran" />
             <Button
                 android:id="@+id/fagetRetur"
                 android:layout_width="match_parent"
@@ -65,19 +65,19 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="SpitalTractorul" />
+                android:text="Spital Tractorul" />
             <Button
                 android:id="@+id/piatatractorulRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PiataTractorul" />
+                android:text="Piata Tractorul" />
             <Button
                 android:id="@+id/decembrie1918Retur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Decembrie1918" />
+                android:text="Decembrie 1918" />
             <Button
                 android:id="@+id/bronzuluiRetur"
                 android:layout_width="match_parent"

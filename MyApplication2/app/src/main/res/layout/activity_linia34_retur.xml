@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
             <Button
                 android:id="@+id/dramaticRetur"
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="HidroA" />
+                android:text="Hidro A" />
             <Button
                 android:id="@+id/toamneiRetur"
                 android:layout_width="match_parent"
@@ -125,13 +125,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PapaReale" />
+                android:text="Papa Reale" />
             <Button
                 android:id="@+id/timistriajRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="TimisTriaj" />
+                android:text="Timis Triaj" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

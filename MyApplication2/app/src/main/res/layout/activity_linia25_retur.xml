@@ -65,13 +65,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexBartolomeu" />
+                android:text="Complex Bartolomeu" />
             <Button
                 android:id="@+id/stadionultineretuluiRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="StadionulTineretului" />
+                android:text="Stadionul Tineretului" />
             <Button
                 android:id="@+id/fartecRetur"
                 android:layout_width="match_parent"
@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="AcademiaHenriCoanda" />
+                android:text="Academia Henri Coanda" />
             <Button
                 android:id="@+id/plevneiRetur"
                 android:layout_width="match_parent"
@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="IancuJianu" />
+                android:text="Iancu Jianu" />
             <Button
                 android:id="@+id/fagetRetur"
                 android:layout_width="match_parent"
@@ -131,7 +131,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexulMare" />
+                android:text="Complexul Mare" />
             <Button
                 android:id="@+id/neptunRetur"
                 android:layout_width="match_parent"

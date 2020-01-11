@@ -41,13 +41,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="StrandNoua" />
+                android:text="Strand Noua" />
             <Button
                 android:id="@+id/poianadarsteRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaDarste" />
+                android:text="Poiana Darste" />
             <Button
                 android:id="@+id/auroraRetur"
                 android:layout_width="match_parent"
@@ -83,13 +83,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulInformatica" />
+                android:text="Liceul Informatica" />
             <Button
                 android:id="@+id/spitaluljudeteanRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="SpitalulJudetean" />
+                android:text="Spitalul Judetean" />
             <Button
                 android:id="@+id/toamneiRetur"
                 android:layout_width="match_parent"
@@ -101,13 +101,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulMesota" />
+                android:text="Liceul Mesota" />
             <Button
                 android:id="@+id/cameradecomertRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="CameraDeComert" />
+                android:text="Camera De Comert" />
             <Button
                 android:id="@+id/sanitasRetur"
                 android:layout_width="match_parent"
@@ -125,7 +125,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

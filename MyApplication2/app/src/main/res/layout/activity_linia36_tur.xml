@@ -35,25 +35,25 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Decembrie1918" />
+                android:text="Decembrie 1918" />
             <Button
                 android:id="@+id/piatatractorulTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PiataTractorul" />
+                android:text="Piata Tractorul" />
             <Button
                 android:id="@+id/bisericatractorulTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BisericaTractorul" />
+                android:text="Biserica Tractorul" />
             <Button
                 android:id="@+id/mirceacelbatranTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="MirceaCelBatran" />
+                android:text="Mircea Cel Batran" />
             <Button
                 android:id="@+id/onixTur"
                 android:layout_width="match_parent"
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

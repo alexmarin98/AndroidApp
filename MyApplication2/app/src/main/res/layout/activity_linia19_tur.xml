@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ArteraSudEst" />
+                android:text="Artera Sud-Est" />
             <Button
                 android:id="@+id/facultativaTur"
                 android:layout_width="match_parent"
@@ -83,13 +83,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FacultativaTimisTriaj" />
+                android:text="Facultativa Timis Triaj" />
             <Button
                 android:id="@+id/fundaturaharmanuluiTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FundaturaHarmanului" />
+                android:text="Fundatura Harmanului" />
             <Button
                 android:id="@+id/metabrasTur"
                 android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulCFR" />
+                android:text="Liceul CFR" />
             <Button
                 android:id="@+id/triajTur"
                 android:layout_width="match_parent"

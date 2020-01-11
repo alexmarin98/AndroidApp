@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ScGen4" />
+                android:text="Scoala Generala Nr.4" />
             <Button
                 android:id="@+id/munciiTur"
                 android:layout_width="match_parent"
@@ -65,13 +65,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ScGen20" />
+                android:text="Scoala Generala Nr.20" />
             <Button
                 android:id="@+id/scgen25Tur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ScGen25" />
+                android:text="Scoala Generala Nr.25" />
             <Button
                 android:id="@+id/fragilorTur"
                 android:layout_width="match_parent"
@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ValeaCetatii" />
+                android:text="Valea Cetatii" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

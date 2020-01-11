@@ -29,13 +29,13 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="StadionulTineretului" />
+                android:text="Stadionul Tineretului" />
             <Button
                 android:id="@+id/autogara2Tur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Autogara2" />
+                android:text="Autogara 2" />
             <Button
                 android:id="@+id/moriiTur"
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="OperaBrasov" />
+                android:text="Opera Brasov" />
             <Button
                 android:id="@+id/rialTur"
                 android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="IuliuManiu" />
+                android:text="Iuliu Maniu" />
             <Button
                 android:id="@+id/patriaTur"
                 android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="HidroA" />
+                android:text="Hidro A" />
             <Button
                 android:id="@+id/toamneiTur"
                 android:layout_width="match_parent"
@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexulMare" />
+                android:text="Complexul Mare" />
             <Button
                 android:id="@+id/neptunTur"
                 android:layout_width="match_parent"

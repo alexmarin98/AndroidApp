@@ -29,19 +29,19 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="StadMunicipal" />
+                android:text="Stadionul Municipal" />
             <Button
                 android:id="@+id/complexbartolomeuTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexBartolomeu" />
+                android:text="Complex Bartolomeu" />
             <Button
                 android:id="@+id/stadionultineretuluiTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="StadionulTineretului" />
+                android:text="Stadionul Tineretului" />
             <Button
                 android:id="@+id/fartecTur"
                 android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="AcademiaHenriCoanda" />
+                android:text="Academia Henri Coanda" />
             <Button
                 android:id="@+id/plevneiTur"
                 android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

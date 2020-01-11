@@ -29,13 +29,13 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
             <Button
                 android:id="@+id/bisericaneagraRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BisericaNeagra" />
+                android:text="Biserica Neagra" />
             <Button
                 android:id="@+id/brancoveanuRetur"
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PiataUnirii" />
+                android:text="Piata Unirii" />
             <Button
                 android:id="@+id/tocileRetur"
                 android:layout_width="match_parent"
@@ -77,19 +77,19 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PodulCretului" />
+                android:text="Podul Cretului" />
             <Button
                 android:id="@+id/lamoaraRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LaMoara" />
+                android:text="La Moara" />
             <Button
                 android:id="@+id/facultativaiiRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FacultativaII" />
+                android:text="Facultativa II" />
             <Button
                 android:id="@+id/solomonRetur"
                 android:layout_width="match_parent"

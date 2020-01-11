@@ -29,13 +29,13 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
             <Button
                 android:id="@+id/bellevueresidenceRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BellevueResidence" />
+                android:text="Bellevue Residence" />
             <Button
                 android:id="@+id/warteRetur"
                 android:layout_width="match_parent"
@@ -53,19 +53,19 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FacultativaII" />
+                android:text="Facultativa II" />
             <Button
                 android:id="@+id/poianamicaRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaMica" />
+                android:text="Poiana Mica" />
             <Button
                 android:id="@+id/poianabrasovRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaBrasov" />
+                android:text="Poiana Brasov" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="GaraBrasov" />
+                android:text="Gara Brasov" />
             <Button
                 android:id="@+id/daciaTur"
                 android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BisericaNeagra" />
+                android:text="Biserica Neagra" />
             <Button
                 android:id="@+id/brancoveanuTur"
                 android:layout_width="match_parent"
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PiataUnirii" />
+                android:text="Piata Unirii" />
             <Button
                 android:id="@+id/tocileTur"
                 android:layout_width="match_parent"

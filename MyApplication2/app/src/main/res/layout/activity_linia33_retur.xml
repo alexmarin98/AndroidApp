@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="ValeaCetatii" />
+                android:text="Valea Cetatii" />
             <Button
                 android:id="@+id/fragilorRetur"
                 android:layout_width="match_parent"
@@ -41,13 +41,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ScGen20" />
+                android:text="Scoala Generala Nr.20" />
             <Button
                 android:id="@+id/scgen4Retur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ScGen4" />
+                android:text="Scoala Generala Nr.4" />
             <Button
                 android:id="@+id/bisericaRetur"
                 android:layout_width="match_parent"

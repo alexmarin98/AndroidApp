@@ -35,25 +35,20 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FacultativaII" />
+                android:text="Facultativa II" />
             <Button
                 android:id="@+id/lamoaraTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LaMoara" />
+                android:text="La Moara" />
+
             <Button
                 android:id="@+id/podulcretuluiTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PodulCretului" />
-            <Button
-                android:id="@+id/podulcretuluiTur"
-                android:layout_width="match_parent"
-                android:layout_height = "wrap_content"
-                android:background = "@drawable/button_backround"
-                android:text="PodulCretului" />
+                android:text="Podul Cretului" />
             <Button
                 android:id="@+id/invatatorilorTur"
                 android:layout_width="match_parent"
@@ -77,13 +72,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PiataUnirii" />
+                android:text="Piata Unirii" />
             <Button
                 android:id="@+id/liceulsagunaTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulSaguna" />
+                android:text="Liceul Saguna" />
             <Button
                 android:id="@+id/balcescuTur"
                 android:layout_width="match_parent"
@@ -119,7 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

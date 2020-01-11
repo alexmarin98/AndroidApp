@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="RATBrasov" />
+                android:text="RAT Brasov" />
             <Button
                 android:id="@+id/coresi1Retur"
                 android:layout_width="match_parent"
@@ -53,31 +53,31 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Decembrie13" />
+                android:text="13 Decembrie" />
             <Button
                 android:id="@+id/liceultractorulRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulTractorul" />
+                android:text="Liceul Tractorul" />
             <Button
                 android:id="@+id/spitaltractorulRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="SpitalTractorul" />
+                android:text="Spital Tractorul" />
             <Button
                 android:id="@+id/piatatractorulRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PiataTractorul" />
+                android:text="Piata Tractorul" />
             <Button
                 android:id="@+id/decembrie1918Retur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Decembrie1918" />
+                android:text="Decembrie 1918" />
             <Button
                 android:id="@+id/huniadeRetur"
                 android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="EcTeodoroiu" />
+                android:text="Ec Teodoroiu" />
             <Button
                 android:id="@+id/cosmestiRetur"
                 android:layout_width="match_parent"
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="MolnarJanos" />
+                android:text="Molnar Janos" />
             <Button
                 android:id="@+id/facultativaRetur"
                 android:layout_width="match_parent"

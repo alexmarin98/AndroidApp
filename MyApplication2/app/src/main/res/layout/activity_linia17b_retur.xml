@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="GaraBrasov" />
+                android:text="Gara Brasov" />
             <Button
                 android:id="@+id/caprioaraRetur"
                 android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexulMare" />
+                android:text="Complexul Mare" />
             <Button
                 android:id="@+id/neptunRetur"
                 android:layout_width="match_parent"
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="DambulMorii" />
+                android:text="Dambul Morii" />
             <Button
                 android:id="@+id/facultativaRetur"
                 android:layout_width="match_parent"
@@ -119,13 +119,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="HaltaTimisulDeJos" />
+                android:text="Halta Timisul De Jos" />
             <Button
                 android:id="@+id/benzinariapetromRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BenzinariaPetrom" />
+                android:text="Benzinaria Petrom" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

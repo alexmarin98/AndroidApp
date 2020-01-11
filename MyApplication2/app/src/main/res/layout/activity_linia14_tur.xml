@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="FabricaDeVar" />
+                android:text="Fabrica De Var" />
             <Button
                 android:id="@+id/atelierTur"
                 android:layout_width="match_parent"
@@ -42,12 +42,6 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:text="Ignis" />
-            <Button
-                android:id="@+id/facultativaTur"
-                android:layout_width="match_parent"
-                android:layout_height = "wrap_content"
-                android:background = "@drawable/button_backround"
-                android:text="Facultativa" />
             <Button
                 android:id="@+id/rasaritulTur"
                 android:layout_width="match_parent"
@@ -83,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BisericiiRomane" />
+                android:text="Bisericii Romane" />
             <Button
                 android:id="@+id/astraTur"
                 android:layout_width="match_parent"
@@ -95,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

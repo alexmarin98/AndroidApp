@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ParcIndMetrom" />
+                android:text="Parc Ind Metrom" />
             <Button
                 android:id="@+id/poienelorRetur"
                 android:layout_width="match_parent"
@@ -65,13 +65,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="LiceulInformatica" />
+                android:text="Liceul Informatica" />
             <Button
                 android:id="@+id/spitaluljudeteanRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="SpitalulJudetean" />
+                android:text="Spitalul Judetean" />
             <Button
                 android:id="@+id/toamneiRetur"
                 android:layout_width="match_parent"
@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BdGarii" />
+                android:text="Bd Garii" />
             <Button
                 android:id="@+id/fagetRetur"
                 android:layout_width="match_parent"
@@ -113,13 +113,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PatinoarulOlimpic" />
+                android:text="Patinoarul Olimpic" />
             <Button
                 android:id="@+id/facultateconstructiiRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FacultateConstructii" />
+                android:text="Facultate Constructii" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

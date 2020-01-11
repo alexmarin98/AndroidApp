@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="LivadaPostei" />
+                android:text="Livada Postei" />
             <Button
                 android:id="@+id/astraRetur"
                 android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BisericiiRomane" />
+                android:text="Bisericii Romane" />
             <Button
                 android:id="@+id/memoranduluiRetur"
                 android:layout_width="match_parent"
@@ -49,29 +49,17 @@
                 android:background = "@drawable/button_backround"
                 android:text="Memorandului" />
             <Button
-                android:id="@+id/cariereiRetur"
-                android:layout_width="match_parent"
-                android:layout_height = "wrap_content"
-                android:background = "@drawable/button_backround"
-                android:text="Carierei" />
-            <Button
                 android:id="@+id/bisericabartolomeuRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="BisericaBartolomeu" />
+                android:text="Biserica Bartolomeu" />
             <Button
                 android:id="@+id/cariereiRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:text="Carierei" />
-            <Button
-                android:id="@+id/facultativaRetur"
-                android:layout_width="match_parent"
-                android:layout_height = "wrap_content"
-                android:background = "@drawable/button_backround"
-                android:text="Facultativa" />
             <Button
                 android:id="@+id/marasestiRetur"
                 android:layout_width="match_parent"
@@ -107,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="FabricaDeVar" />
+                android:text="Fabrica De Var" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

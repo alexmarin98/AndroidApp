@@ -41,13 +41,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="StrandNoua" />
+                android:text="Strand Noua" />
             <Button
                 android:id="@+id/poianadarsteTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaDarste" />
+                android:text="Poiana Darste" />
             <Button
                 android:id="@+id/auroraTur"
                 android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexulMare" />
+                android:text="Complexul Mare" />
             <Button
                 android:id="@+id/gemeniiTur"
                 android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PanaitCerna" />
+                android:text="Panait Cerna" />
             <Button
                 android:id="@+id/branduselorTur"
                 android:layout_width="match_parent"
@@ -119,13 +119,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Autogara3" />
+                android:text="Autogara 3" />
             <Button
                 android:id="@+id/ratbrasovTur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="RATBrasov" />
+                android:text="RAT Brasov" />
             <Button
                 android:id="@+id/triajTur"
                 android:layout_width="match_parent"

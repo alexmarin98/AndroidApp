@@ -35,19 +35,19 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaBrasov" />
+                android:text="Poiana Brasov" />
             <Button
                 android:id="@+id/poianamicaRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaMica" />
+                android:text="Poiana Mica" />
             <Button
                 android:id="@+id/silvermountainRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="SilverMountain" />
+                android:text="Silver Mountain" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,13 +35,13 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="RATBrasov" />
+                android:text="RAT Brasov" />
             <Button
                 android:id="@+id/autogara3Retur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="Autogara3" />
+                android:text="Autogara 3" />
             <Button
                 android:id="@+id/vlahutaRetur"
                 android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ComplexulMare" />
+                android:text="Complexul Mare" />
             <Button
                 android:id="@+id/neptunRetur"
                 android:layout_width="match_parent"
@@ -107,19 +107,19 @@
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="PoianaDarste" />
+                android:text="Poiana Darste" />
             <Button
                 android:id="@+id/strandnouaRetur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="StrandNoua" />
+                android:text="Strand Noua" />
             <Button
                 android:id="@+id/scgen9Retur"
                 android:layout_width="match_parent"
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
-                android:text="ScGen9" />
+                android:text="Scoala Generala Nr.9" />
             <Button
                 android:id="@+id/facultativaRetur"
                 android:layout_width="match_parent"

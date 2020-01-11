@@ -29,7 +29,7 @@
                 android:layout_height = "wrap_content"
                 android:background = "@drawable/button_backround"
                 android:layout_marginTop="60dp"
-                android:text="HidroA" />
+                android:text="Hidro A" />
             <Button
                 android:id="@+id/infostarTur"
                 android:layout_width="match_parent"
