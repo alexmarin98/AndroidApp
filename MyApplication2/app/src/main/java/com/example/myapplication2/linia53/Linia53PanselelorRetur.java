@@ -11,6 +11,6 @@ public class Linia53PanselelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_panselelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Panselelor.pdf").load();
+        pdfView.fromAsset("linia53_PANSELELOR_Panselelor_Facultate_Constructii_Panselelor (1).pdf").load();
     }
 }

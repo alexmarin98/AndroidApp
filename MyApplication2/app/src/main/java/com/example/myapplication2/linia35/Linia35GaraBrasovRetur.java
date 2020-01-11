@@ -11,6 +11,6 @@ public class Linia35GaraBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_garabrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_retur_GaraBrasov.pdf").load();
+        pdfView.fromAsset("linia_35_Gara_Brasov_Noua_Gara_Brasov.pdf").load();
     }
 }

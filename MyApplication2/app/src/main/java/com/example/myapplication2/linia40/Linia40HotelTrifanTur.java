@@ -11,6 +11,6 @@ public class Linia40HotelTrifanTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_hoteltrifan_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_tur_HotelTrifan.pdf").load();
+        pdfView.fromAsset("linia_40_Gara_Brasov_Stupini_Izvorului_Hotel_Trifan.pdf").load();
     }
 }

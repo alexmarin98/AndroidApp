@@ -11,6 +11,6 @@ public class Linia53SoareluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_soarelui_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Soarelui.pdf").load();
+        pdfView.fromAsset("linia53_BUC_SOARE_D_Panselelor_Facultate_Constructii_Soarelui (1).pdf").load();
     }
 }

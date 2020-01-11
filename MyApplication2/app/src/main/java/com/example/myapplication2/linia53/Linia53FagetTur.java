@@ -11,6 +11,6 @@ public class Linia53FagetTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_faget_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_tur_Faget.pdf").load();
+        pdfView.fromAsset("linia53_FAGET_I_Facultate_Constructii_Panselelor_Faget (1).pdf").load();
     }
 }

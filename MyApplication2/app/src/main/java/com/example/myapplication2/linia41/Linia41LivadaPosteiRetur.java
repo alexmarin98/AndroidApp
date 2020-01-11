@@ -11,6 +11,6 @@ public class Linia41LivadaPosteiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_livadapostei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_LivadaPostei.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Livada_Postei.pdf").load();
     }
 }

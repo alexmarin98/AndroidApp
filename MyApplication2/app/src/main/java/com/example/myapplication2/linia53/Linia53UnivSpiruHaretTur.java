@@ -11,6 +11,6 @@ public class Linia53UnivSpiruHaretTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_univspiruharet_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_tur_UnivSpiruHaret.pdf").load();
+        pdfView.fromAsset("linia53_SPIRU_HARET_Facultate_Constructii_Panselelor_Univ._Spiru_Haret (1).pdf").load();
     }
 }

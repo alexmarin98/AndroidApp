@@ -11,6 +11,6 @@ public class Linia40TipografiaBrastarRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia40_tipografiabrastar_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia40_retur_TipografiaBrastar.pdf").load();
+        pdfView.fromAsset("linia_40_Stupini_Izvorului_Gara_Brasov_Tipografia_Brastar.pdf").load();
     }
 }

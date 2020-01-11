@@ -11,6 +11,6 @@ public class Linia52PoienelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_poienelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_retur_Poienelor.pdf").load();
+        pdfView.fromAsset("linia_52_Tocile_Roman(Panselelor_1)_Poienelor.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia41Autogara2Retur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_autogara2_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_Autogara2.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Autogara_2.pdf").load();
     }
 }

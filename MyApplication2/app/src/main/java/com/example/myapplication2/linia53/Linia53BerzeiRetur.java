@@ -11,6 +11,6 @@ public class Linia53BerzeiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_berzei_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Berzei.pdf").load();
+        pdfView.fromAsset("linia53_BERZEI_2_Facultate_Constructii_Panselelor_Pompieri (1).pdf").load();
     }
 }

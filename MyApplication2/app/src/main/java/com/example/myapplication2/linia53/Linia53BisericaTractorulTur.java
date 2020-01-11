@@ -11,6 +11,6 @@ public class Linia53BisericaTractorulTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_bisericatractorul_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_tur_BisericaTractorul.pdf").load();
+        pdfView.fromAsset("linia53_BISERICA_TRAC_Facultate_Constructii_Panselelor_Biserica_Tractorul (1).pdf").load();
     }
 }

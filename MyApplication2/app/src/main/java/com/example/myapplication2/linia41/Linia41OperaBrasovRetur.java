@@ -11,6 +11,6 @@ public class Linia41OperaBrasovRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_operabrasov_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_OperaBrasov.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Opera_Brasov.pdf").load();
     }
 }

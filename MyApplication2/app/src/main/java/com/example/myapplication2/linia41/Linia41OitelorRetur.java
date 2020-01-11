@@ -11,6 +11,6 @@ public class Linia41OitelorRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_oitelor_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_Oitelor.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Oitelor.pdf").load();
     }
 }

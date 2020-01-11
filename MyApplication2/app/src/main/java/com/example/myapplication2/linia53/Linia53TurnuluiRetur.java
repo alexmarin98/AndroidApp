@@ -11,6 +11,6 @@ public class Linia53TurnuluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_turnului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Turnului.pdf").load();
+        pdfView.fromAsset("linia53_TURNULUI_Panselelor_Facultate_Constructii_Turnului (1).pdf").load();
     }
 }

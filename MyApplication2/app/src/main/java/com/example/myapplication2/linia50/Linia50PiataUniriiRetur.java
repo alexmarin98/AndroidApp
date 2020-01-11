@@ -11,6 +11,6 @@ public class Linia50PiataUniriiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia50_piataunirii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia50_retur_PiataUnirii.pdf").load();
+        pdfView.fromAsset("linia_50_Livada_Postei_Podul_Cretului(Solomon_1)_Piata_Unirii.pdf").load();
     }
 }

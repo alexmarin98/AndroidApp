@@ -11,6 +11,6 @@ public class Linia41CimitirulCentralTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_cimitirulcentral_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_tur_CimitirulCentral.pdf").load();
+        pdfView.fromAsset("linia_41_Lujerului_Livada_Postei_Cimitirul_Central.pdf").load();
     }
 }

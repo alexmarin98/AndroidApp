@@ -11,6 +11,6 @@ public class Linia41DimitrieAnghelRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_dimitrieanghel_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_DimitrieAnghel.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Dimitrie_Anghel.pdf").load();
     }
 }

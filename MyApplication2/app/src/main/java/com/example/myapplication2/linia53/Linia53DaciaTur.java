@@ -11,6 +11,6 @@ public class Linia53DaciaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_dacia_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_tur_Dacia.pdf").load();
+        pdfView.fromAsset("linia53_DACIA_Facultate_Constructii_Panselelor_Dacia (2).pdf").load();
     }
 }

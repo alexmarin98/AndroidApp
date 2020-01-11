@@ -11,6 +11,6 @@ public class Linia52ParcIndMetromRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia52_parcindmetrom_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia52_retur_ParcIndMetrom.pdf").load();
+        pdfView.fromAsset("linia_52_Tocile_Roman(Panselelor_1)_Parc_Ind._Metrom.pdf").load();
     }
 }

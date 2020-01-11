@@ -11,6 +11,6 @@ public class Linia35LiceulInformaticaTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_liceulinformatica_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_tur_LiceulInformatica.pdf").load();
+        pdfView.fromAsset("linia_35_Gara_Brasov_Noua_Liceul_Informatica.pdf").load();
     }
 }

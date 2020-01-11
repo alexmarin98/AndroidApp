@@ -11,6 +11,6 @@ public class Linia35InfostarTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_infostar_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_tur_Infostar.pdf").load();
+        pdfView.fromAsset("linia_35_Gara_Brasov_Noua_Infostar.pdf").load();
     }
 }

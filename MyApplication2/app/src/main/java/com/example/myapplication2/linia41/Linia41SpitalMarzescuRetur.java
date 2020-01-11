@@ -11,6 +11,6 @@ public class Linia41SpitalMarzescuRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_spitalmarzescu_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_SpitalMarzescu.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Spital_Marzescu.pdf").load();
     }
 }

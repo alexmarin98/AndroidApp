@@ -11,6 +11,6 @@ public class Linia35ScGen9Tur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_scgen9_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_tur_ScGen9.pdf").load();
+        pdfView.fromAsset("linia_35_Gara_Brasov_Noua_Sc._Gen._9.pdf").load();
     }
 }

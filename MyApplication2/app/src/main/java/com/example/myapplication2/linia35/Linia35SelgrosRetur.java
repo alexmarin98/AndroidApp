@@ -11,6 +11,6 @@ public class Linia35SelgrosRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia35_selgros_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia35_retur_Selgros.pdf").load();
+        pdfView.fromAsset("linia_35_Noua_Gara_Brasov_Selgros.pdf").load();
     }
 }

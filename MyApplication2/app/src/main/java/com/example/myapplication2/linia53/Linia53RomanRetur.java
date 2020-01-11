@@ -11,6 +11,6 @@ public class Linia53RomanRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia53_roman_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia53_retur_Roman.pdf").load();
+        pdfView.fromAsset("linia53_ROMAN_Panselelor_Facultate_Constructii_Roman (1).pdf").load();
     }
 }

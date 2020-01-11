@@ -11,6 +11,6 @@ public class Linia41StatieEpurareRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_statieepurare_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_retur_StatieEpurare.pdf").load();
+        pdfView.fromAsset("linia_41_Livada_Postei_Lujerului_Statie_Epurare.pdf").load();
     }
 }

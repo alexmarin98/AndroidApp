@@ -11,6 +11,6 @@ public class Linia41RacordnormTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia41_racordnorm_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia41_tur_Racordnorm.pdf").load();
+        pdfView.fromAsset("linia_41_Lujerului_Livada_Postei_Racordnorm.pdf").load();
     }
 }
