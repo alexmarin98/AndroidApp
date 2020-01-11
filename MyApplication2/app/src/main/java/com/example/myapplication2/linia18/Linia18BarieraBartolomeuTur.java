@@ -11,6 +11,6 @@ public class Linia18BarieraBartolomeuTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_barierabartolomeu_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_BarieraBartolomeu.pdf").load();
+        pdfView.fromAsset("linia18/linia_BARIERA_BARTOLOM_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Bariera_Bartolomeu.pdf").load();
     }
 }

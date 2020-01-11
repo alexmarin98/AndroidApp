@@ -11,6 +11,6 @@ public class Linia18UnitateMilitaraTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_unitatemilitara_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_UnitateMilitara.pdf").load();
+        pdfView.fromAsset("linia18/linia_UNITATEA_MIL_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Unitate_Militara.pdf").load();
     }
 }

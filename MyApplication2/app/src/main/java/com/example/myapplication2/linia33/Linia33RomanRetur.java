@@ -11,6 +11,6 @@ public class Linia33RomanRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia33_roman_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia33_retur_Roman.pdf").load();
+        pdfView.fromAsset("linia33/linia_ROMAN_Roman_Valea_Cetatii_Roman.pdf").load();
     }
 }

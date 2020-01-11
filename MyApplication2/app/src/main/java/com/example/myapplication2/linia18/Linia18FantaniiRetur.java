@@ -11,6 +11,6 @@ public class Linia18FantaniiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_fantanii_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_retur_Fantanii.pdf").load();
+        pdfView.fromAsset("linia18/linia_FANTANII_D_(IAR_Ghimbav_1)Fundaturii_cl_Bariera_Bartolomeu_Fantanii.pdf").load();
     }
 }

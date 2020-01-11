@@ -11,6 +11,6 @@ public class Linia18FeldioareiTur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_feldioarei_tur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_tur_Feldioarei.pdf").load();
+        pdfView.fromAsset("linia18/linia_FELDIOAREI_I_Bariera_Bartolomeu_Fundaturii_cl(IAR_Ghimbav_1)_Feldioarei.pdf").load();
     }
 }

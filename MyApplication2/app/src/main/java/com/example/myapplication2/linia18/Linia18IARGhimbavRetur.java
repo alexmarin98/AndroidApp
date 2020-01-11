@@ -11,6 +11,6 @@ public class Linia18IARGhimbavRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_iarghimbav_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_retur_IARGhimbav.pdf").load();
+        pdfView.fromAsset("linia18/linia_ICA_GHIMBAV_CAPAT_(IAR_Ghimbav_1)Fundaturii_cl_Bariera_Bartolomeu_IAR_Ghimbav.pdf").load();
     }
 }

@@ -11,6 +11,6 @@ public class Linia18FundaturiiclRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_fundaturiicl_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_retur_Fundaturiicl.pdf").load();
+        pdfView.fromAsset("linia18/linia_FUNDATURII_CAPAT_D_(IAR_Ghimbav_1)Fundaturii_cl_Bariera_Bartolomeu_Fundaturii_cl.pdf").load();
     }
 }

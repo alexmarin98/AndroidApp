@@ -11,6 +11,6 @@ public class Linia18SurlasuluiRetur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linia18_surlasului_retur);
         PDFView pdfView = (PDFView)findViewById(R.id.pdfViewTur);
-        pdfView.fromAsset("linia18_retur_Surlasului.pdf").load();
+        pdfView.fromAsset("linia18/linia_SURLASULUI_D_(IAR_Ghimbav_1)Fundaturii_cl_Bariera_Bartolomeu_Surlasului.pdf").load();
     }
 }
