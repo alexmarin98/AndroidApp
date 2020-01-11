@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application2</string>
+    <string name="app_name">BusGo</string>
     <string name="sign">sign</string>
     <string name="title_activity_main_content">MainContent</string>
 
