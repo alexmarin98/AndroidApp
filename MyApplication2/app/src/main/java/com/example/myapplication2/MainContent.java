@@ -94,6 +94,7 @@ public class MainContent extends AppCompatActivity {
     Button Linia10;
     Button Linia33;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
