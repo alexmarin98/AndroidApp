@@ -24,19 +24,23 @@ public class MainActivity extends AppCompatActivity {
         cpass = (EditText) findViewById(R.id.cpass);
         register = (Button) findViewById(R.id.register);
         login = (Button) findViewById(R.id.login);
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this,Login.class);
                 startActivity(i);
+                finish();
             }
         });
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String s1 = user.getText().toString();
                 String s2 = pass.getText().toString();
                 String s3 = cpass.getText().toString();
+
                 if(s1.equals("")|| s2.equals("")){
                     Toast.makeText(getApplicationContext(),"Fields are empty",Toast.LENGTH_SHORT).show();
                 }
